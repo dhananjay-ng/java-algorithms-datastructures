@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46fbd0e-2a3d-4689-b4d2-f26bd5a15188" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/copp/FastReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/copp/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/copp/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/copp/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unittesting/MyUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COPP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/copp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/copp/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +22,88 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/copp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="246">
+              <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3861#3862#0" expanded="true" />
+                <element signature="e#3942#3943#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringBuilder.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/StringBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding>
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigInteger.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/math/BigInteger.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="1374" column="44" lean-forward="true" selection-start-line="1374" selection-start-column="44" selection-end-line="1374" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/String.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-534">
+              <caret line="597" column="15" selection-start-line="597" selection-start-column="15" selection-end-line="597" selection-end-column="15" />
+              <folding>
+                <element signature="e#17482#17483#0" expanded="true" />
+                <element signature="e#17526#17527#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/copp/Template.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#Reader#0;class#Template#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/copp/TestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spliterators.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Spliterators.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Arrays.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="2041" column="31" lean-forward="true" selection-start-line="2041" selection-start-column="31" selection-end-line="2041" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -32,8 +111,8 @@
       <file leaf-file-name="FastReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/copp/FastReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
@@ -50,8 +129,8 @@
       <file leaf-file-name="InputReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/copp/InputReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="358">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
@@ -75,6 +154,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>nextInt</find>
+      <find>package com\.copp\;\n\nimport java\.io\.\*\;\nimport java\.lang\.reflect\.Array\;\nimport java\.util\.Arrays\;\nimport java\.util\.Scanner\;\n\npublic class Main \{\n    static class Reader\n    \{\n        final private int BUFFER_SIZE \= 1 \&lt;\&lt; 16\;\n        private DataInputStream din\;\n        private byte\[\] buffer\;\n        private int bufferPointer\, bytesRead\;\n\n        public Reader\(\)\n        \{\n            din \= new DataInputStream\(System\.in\)\;\n            buffer \= new byte\[BUFFER_SIZE\]\;\n            bufferPointer \= bytesRead \= 0\;\n        \}\n\n        public Reader\(String file_name\) throws IOException\n        \{\n            din \= new DataInputStream\(new FileInputStream\(file_name\)\)\;\n            buffer \= new byte\[BUFFER_SIZE\]\;\n            bufferPointer \= bytesRead \= 0\;\n        \}\n\n        public String readLine\(\) throws IOException\n        \{\n            byte\[\] buf \= new byte\[64\]\; \/\/ line length\n            int cnt \= 0\, c\;\n            while \(\(c \= read\(\)\) \!\= \-1\)\n            \{\n                if \(c \=\= \'\\n\'\)\n                    break\;\n                buf\[cnt\+\+\] \= \(byte\) c\;\n            \}\n            return new String\(buf\, 0\, cnt\)\;\n        \}\n\n        public int nextInt\(\) throws IOException\n        \{\n            int ret \= 0\;\n            byte c \= read\(\)\;\n            while \(c \&lt;\= \' \'\)\n                c \= read\(\)\;\n            boolean neg \= \(c \=\= \'\-\'\)\;\n            if \(neg\)\n                c \= read\(\)\;\n            do\n            \{\n                ret \= ret \* 10 \+ c \- \'0\'\;\n            \}  while \(\(c \= read\(\)\) \&gt;\= \'0\' \&amp;\&amp; c \&lt;\= \'9\'\)\;\n\n            if \(neg\)\n                return \-ret\;\n            return ret\;\n        \}\n\n        public long nextLong\(\) throws IOException\n        \{\n            long ret \= 0\;\n            byte c \= read\(\)\;\n            while \(c \&lt;\= \' \'\)\n                c \= read\(\)\;\n            boolean neg \= \(c \=\= \'\-\'\)\;\n            if \(neg\)\n                c \= read\(\)\;\n            do \{\n                ret \= ret \* 10 \+ c \- \'0\'\;\n            \}\n            while \(\(c \= read\(\)\) \&gt;\= \'0\' \&amp;\&amp; c \&lt;\= \'9\'\)\;\n            if \(neg\)\n                return \-ret\;\n            return ret\;\n        \}\n\n        public double nextDouble\(\) throws IOException\n        \{\n            double ret \= 0\, div \= 1\;\n            byte c \= read\(\)\;\n            while \(c \&lt;\= \' \'\)\n                c \= read\(\)\;\n            boolean neg \= \(c \=\= \'\-\'\)\;\n            if \(neg\)\n                c \= read\(\)\;\n\n            do \{\n                ret \= ret \* 10 \+ c \- \'0\'\;\n            \}\n            while \(\(c \= read\(\)\) \&gt;\= \'0\' \&amp;\&amp; c \&lt;\= \'9\'\)\;\n\n            if \(c \=\= \'\.\'\)\n            \{\n                while \(\(c \= read\(\)\) \&gt;\= \'0\' \&amp;\&amp; c \&lt;\= \'9\'\)\n                \{\n                    ret \+\= \(c \- \'0\'\) \/ \(div \*\= 10\)\;\n                \}\n            \}\n\n            if \(neg\)\n                return \-ret\;\n            return ret\;\n        \}\n\n        private void fillBuffer\(\) throws IOException\n        \{\n            bytesRead \= din\.read\(buffer\, bufferPointer \= 0\, BUFFER_SIZE\)\;\n            if \(bytesRead \=\= \-1\)\n                buffer\[0\] \= \-1\;\n        \}\n\n        private byte read\(\) throws IOException\n        \{\n            if \(bufferPointer \=\= bytesRead\)\n                fillBuffer\(\)\;\n            return buffer\[bufferPointer\+\+\]\;\n        \}\n\n        public void close\(\) throws IOException\n        \{\n            if \(din \=\= null\)\n                return\;\n            din\.close\(\)\;\n        \}\n    \}\n    public static void main\(String\[\] args\) \{\n\	\/\/ write your code here\n\n        Reader ii\=new Reader\(\)\;\n        StringBuilder result\=new StringBuilder\(\)\;\n        try\{\n        int n\=ii\.nextInt\(\)\;\n        int q\=ii\.nextInt\(\)\;\n\n        int\[\] a\=new int\[n\]\;\n        for \(int i\=0\;i\&lt;n\;i\+\+\)\{\n            a\[i\]\=ii\.nextInt\(\)\;\n        \}\n        for \(int i\=0\;i\&lt;q\;i\+\+\)\{\n            int aa\,b\,c\;\n            aa\=ii\.nextInt\(\)\;\n            b\=ii\.nextInt\(\)\;\n            c\=ii\.nextInt\(\)\;\nb\-\=1\;\nc\-\=1\;\n            switch \(aa\)\{\n                case 1\:a\[c\]\=b\;\n                    break\;\n                case 2\:result\.append\(Arrays\.stream\(a\,b\,c\)\.sum\(\)\)\.append\(\&quot;\\n\&quot;\)\;\n                    break\;\n            \}\n        \}\n\n\n        \} catch \(IOException e\) \{\n            e\.printStackTrace\(\)\;\n        \}\n        System\.out\.println\(result\)\;\n\n\n       \/\* int n\=ir\.readInt\(\)\;\n        StringBuilder result\=new StringBuilder\(\)\;\n        result\.append\(n\)\.append\(\&quot;\\n\&quot;\)\;\n        System\.out\.println\(result\)\;\n    \*\/\}\n\}\n</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,15 +165,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/copp/InputReader.java" />
         <option value="$PROJECT_DIR$/src/com/copp/FastReader.java" />
+        <option value="$PROJECT_DIR$/src/com/copp/test.java" />
+        <option value="$PROJECT_DIR$/src/unittesting/MyUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/com/copp/Template.java" />
         <option value="$PROJECT_DIR$/src/com/copp/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1060" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="2" />
+    <option name="width" value="1933" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -123,6 +206,12 @@
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unittesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -132,6 +221,19 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Fieldglass\COPP\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,26 +275,36 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-6" y="2" width="1546" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" weight="0.32650074" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33235726" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32756132" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32900432" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32756132" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8476395" visible="true" weight="0.25033647" />
       <window_info anchor="bottom" id="SonarLint" />
-      <window_info id="Learn" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Learn" sideWeight="0.49785408" weight="0.3295302" />
+      <window_info id="Structure" order="1" sideWeight="0.15236051" side_tool="true" weight="0.24949698" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -200,9 +312,77 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32756132" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="SonarLint" order="0" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.8476395" visible="true" weight="0.24949698" />
+      <window_info id="Structure" order="4" sideWeight="0.15236051" side_tool="true" visible="true" weight="0.24949698" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32756132" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info id="Learn" order="1" sideWeight="0.49785408" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="4" weight="0.32756132" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3997114" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32756132" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/copp/InputReader.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Spliterators.class</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>sum.add(new BigInteger(split[i]));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(int)s.charAt(i)-48</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(int)s.charAt(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/io/InputStream.class">
@@ -212,10 +392,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Scanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="394" column="46" selection-start-line="394" selection-start-column="46" selection-end-line="394" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/AbstractStringBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/io/OutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/copp/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittesting/MyUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="2041" column="31" lean-forward="true" selection-start-line="2041" selection-start-column="31" selection-end-line="2041" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Spliterators.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/copp/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/copp/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Reader#0;class#Template#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/copp/FastReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="114">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
@@ -228,17 +478,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Scanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="394" column="46" selection-start-line="394" selection-start-column="46" selection-end-line="394" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/copp/InputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="358">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
@@ -249,42 +492,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/AbstractStringBuilder.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+        <state relative-caret-position="-534">
+          <caret line="597" column="15" selection-start-line="597" selection-start-column="15" selection-end-line="597" selection-end-column="15" />
+          <folding>
+            <element signature="e#17482#17483#0" expanded="true" />
+            <element signature="e#17526#17527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/math/BigInteger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1374" column="44" lean-forward="true" selection-start-line="1374" selection-start-column="44" selection-end-line="1374" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/StringBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/io/OutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/copp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="246">
+          <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3861#3862#0" expanded="true" />
+            <element signature="e#3942#3943#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>COPP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-4.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

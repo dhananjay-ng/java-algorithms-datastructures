@@ -1,12 +1,10 @@
 package com.copp;
 
-import java.io.*;
-import java.lang.reflect.Array;
-import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
 
-public class Main {
+public class Template {
     static class Reader
     {
         final private int BUFFER_SIZE = 1 << 16;
@@ -41,7 +39,7 @@ public class Main {
             return new String(buf, 0, cnt);
         }
 
-        public int nextInt()
+        public int nextInt() throws IOException
         {
             int ret = 0;
             byte c = read();
@@ -60,7 +58,7 @@ public class Main {
             return ret;
         }
 
-        public long nextLong()
+        public long nextLong() throws IOException
         {
             long ret = 0;
             byte c = read();
@@ -78,7 +76,7 @@ public class Main {
             return ret;
         }
 
-        public double nextDouble()
+        public double nextDouble() throws IOException
         {
             double ret = 0, div = 1;
             byte c = read();
@@ -113,15 +111,10 @@ public class Main {
                 buffer[0] = -1;
         }
 
-        private byte read()
+        private byte read() throws IOException
         {
-            if (bufferPointer == bytesRead) {
-                try {
-                    fillBuffer();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+            if (bufferPointer == bytesRead)
+                fillBuffer();
             return buffer[bufferPointer++];
         }
 
@@ -131,58 +124,6 @@ public class Main {
                 return;
             din.close();
         }
-        public String readString() {
-            final StringBuilder stringBuilder = new StringBuilder();
-            byte c = read();
-            while (isSpaceChar(c))
-                c = read();
-            do {
-                stringBuilder.append((char)c);
-                c = read();
-            } while (!isSpaceChar(c));
-            return stringBuilder.toString();
-        }
-        public boolean isSpaceChar(byte c) {
-            return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
-        }
     }
-    public static void main(String[] args) {
-        // write your code here
 
-        Reader in = new Reader();
-        StringBuilder result = new StringBuilder();
-
-int t=in.nextInt();
-        int p,q,im;
-        p=in.nextInt();
-        q=in.nextInt();
-        im=in.nextInt();
-int px=0;
-int qx=0;
-        for (int i=0;i<t;i++){
-            for(int j=0;j<t;j++){
-                px=im-Math.abs(p-i);
-                qx=im-Math.abs(q-j);
-                if(px>0&&qx>0) {
-                    result.append(px < qx ? px + " " : qx + " ");
-                }else{
-                    result.append("0 ");
-                }
-            }result.append(System.lineSeparator());
-        }
-
-
-
-
-
-
-        System.out.println(result);
-
-
-    }
-       /* int n=ir.readInt();
-        StringBuilder result=new StringBuilder();
-        result.append(n).append("\n");
-        System.out.println(result);
-    */
 }

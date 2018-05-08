@@ -142,6 +142,20 @@ public class Main {
             } while (!isSpaceChar(c));
             return stringBuilder.toString();
         }
+        public void readIntArray(int a[],int n){
+            for(int i=0;i<n;i++)
+                a[i]=nextInt();
+
+        }
+        public void readLongArray(long a[],int n){
+            for(int i=0;i<n;i++)
+                a[i]=nextLong();
+        }
+        public void readStringArray(String a[],int n){
+            for(int i=0;i<n;i++)
+                a[i]=readString();
+        }
+
         public boolean isSpaceChar(byte c) {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
@@ -152,35 +166,10 @@ public class Main {
         Reader in = new Reader();
         StringBuilder result = new StringBuilder();
 
-int t=in.nextInt();
-        int p,q,im;
-        p=in.nextInt();
-        q=in.nextInt();
-        im=in.nextInt();
-int px=0;
-int qx=0;
-        for (int i=0;i<t;i++){
-            for(int j=0;j<t;j++){
-                px=im-Math.abs(p-i);
-                qx=im-Math.abs(q-j);
-                if(px>0&&qx>0) {
-                    result.append(px < qx ? px + " " : qx + " ");
-                }else{
-                    result.append("0 ");
-                }
-            }result.append(System.lineSeparator());
-        }
-
-
-
-
-
 
         System.out.println(result);
-
-
     }
-       /* int n=ir.readInt();
+       /* int n=ir.readInt();`
         StringBuilder result=new StringBuilder();
         result.append(n).append("\n");
         System.out.println(result);

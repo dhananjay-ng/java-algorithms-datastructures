@@ -26,7 +26,7 @@ public class GenericsEasyOne{
         for(int i:ints)
             System.out.print(i+" ");
 
-        String[] a = {"amy", "Dj"};
+        String[] a = {"amy", "Dj","MJ"};
         System.out.println(toList(a));
         System.out.println(tooList(1,2,3));
 

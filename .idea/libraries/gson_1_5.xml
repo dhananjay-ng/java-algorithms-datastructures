@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gson-1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Foundation-2017.30/foundation-lib/lib/gson-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

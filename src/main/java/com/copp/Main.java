@@ -1,5 +1,7 @@
 package com.copp;
 
+import com.google.gson.Gson;
+
 import java.io.*;
 import java.lang.reflect.Array;
 import java.math.BigInteger;
@@ -165,6 +167,8 @@ public class Main {
 
         Reader in = new Reader();
         StringBuilder result = new StringBuilder();
+
+        Gson gson = new Gson();
 
 
         System.out.println(result);

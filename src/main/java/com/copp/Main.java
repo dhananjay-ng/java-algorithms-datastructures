@@ -1,12 +1,9 @@
 package com.copp;
 
-import com.google.gson.Gson;
 
-import java.io.*;
-import java.lang.reflect.Array;
-import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class Main {
     static class Reader
@@ -168,7 +165,6 @@ public class Main {
         Reader in = new Reader();
         StringBuilder result = new StringBuilder();
 
-        Gson gson = new Gson();
 
 
         System.out.println(result);

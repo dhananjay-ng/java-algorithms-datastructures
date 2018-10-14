@@ -1,4 +1,4 @@
-/******************************************************************************
+package algs4dg.percolation; /******************************************************************************
  *  Compilation:  javac PercolationVisualizer.java
  *  Execution:    java PercolationVisualizer input.txt
  *  Dependencies: Percolation.java

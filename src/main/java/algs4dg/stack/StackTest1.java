@@ -1,4 +1,4 @@
-package algs4dg;
+package algs4dg.stack;
 
 /**
  * Created by @apprentice on 10/14/2018.

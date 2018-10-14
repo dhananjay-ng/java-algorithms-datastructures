@@ -1,4 +1,4 @@
-/**
+package algs4dg.percolation; /**
  * Created by I344422 on 7/24/2018.
  */
 

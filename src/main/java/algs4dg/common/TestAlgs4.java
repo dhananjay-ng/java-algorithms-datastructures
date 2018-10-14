@@ -1,4 +1,4 @@
-package algs4dg;
+package algs4dg.common;
 
 /**
  * Created by I344422 on 7/22/2018.

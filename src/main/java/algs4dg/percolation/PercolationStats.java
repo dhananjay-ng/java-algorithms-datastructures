@@ -1,5 +1,5 @@
 package algs4dg.percolation; /**
- * Created by I344422 on 7/24/2018.
+ * Created by @apprentice on 7/24/2018.
  */
 
 import edu.princeton.cs.algs4.StdOut;

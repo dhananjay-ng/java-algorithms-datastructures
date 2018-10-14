@@ -1,7 +1,7 @@
 package com.copp.union.find;
 
 /**
- * Created by I344422 on 7/22/2018.
+ * Created by @apprentice on 7/22/2018.
  */
 
 import edu.princeton.cs.algs4.*;

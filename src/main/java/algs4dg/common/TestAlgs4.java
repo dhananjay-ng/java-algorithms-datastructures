@@ -1,7 +1,7 @@
 package algs4dg.common;
 
 /**
- * Created by I344422 on 7/22/2018.
+ * Created by @apprentice on 7/22/2018.
  */
 /******************************************************************************
  *  Compilation:  javac-algs4 TestAlgs4.java

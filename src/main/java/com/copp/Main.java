@@ -167,7 +167,7 @@ public class Main {
 
 
 
-        System.out.println(result);
+        System.out.println("Закрыто".equals("Закрыто"));
     }
        /* int n=ir.readInt();`
         StringBuilder result=new StringBuilder();

@@ -1,3 +1,5 @@
+package java9features;
+
 import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

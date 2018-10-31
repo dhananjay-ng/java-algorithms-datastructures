@@ -1,3 +1,4 @@
+package java9features;
 public interface Scalable {
 	
 	// implicitly public abstract

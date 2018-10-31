@@ -1,3 +1,4 @@
+package java9features;
 public interface NoLoops {
 
 	// Iterative version, requires constant space

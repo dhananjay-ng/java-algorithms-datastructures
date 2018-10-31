@@ -1,3 +1,4 @@
+package java9features;
 import java.util.function.*;
 
 public class LambdaInference {
@@ -12,11 +13,11 @@ public class LambdaInference {
 		
 		
 		// Compile-time error: not enough info
-		Object x1 = msg -> System.out.println(msg.length());
+	//	Object x1 = msg -> System.out.println(msg.length());
 				
 		
 		// Compile-time error: not enough info
-		Object x2 = (String msg) -> System.out.println(msg.length());
+	//	Object x2 = (String msg) -> System.out.println(msg.length());
 		
 		
 		// OK: cast added
@@ -43,7 +44,7 @@ public class LambdaInference {
 		
 		
 		// Compile-time error: Inference is *not* based on body of lambda
-		Consumer<?> c3 = msg -> System.out.println(msg.length());
+	//	Consumer<?> c3 = msg -> System.out.println(msg.length());
 		
 		
 		// OK: added manifest type to parameter
@@ -90,10 +91,10 @@ public class LambdaInference {
 			new Manager(manager.getName(), manager.getSalary(), 2*manager.getBonus()));
 
 		
-		// Compile-time error: Inference is not based on body of lambda
+		/*// Compile-time error: Inference is not based on body of lambda
 		Employee test3 = testWithNull(manager ->
 			new Manager(manager.getName(), manager.getSalary(), 2*manager.getBonus()));
-				
+	*/
 		
 	}
 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wiki">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/wiki.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algs4dg/basics/InOutTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex6.java" afterDir="false" />
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="#few exercises solved">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/wiki.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algs4dg/stack/StackTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4dg/stackqueue/StackTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/Interfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/Interfaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/Lambda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/Lambda1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/LambdaExtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/LambdaExtra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/LambdaImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/LambdaImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/LambdaInference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/LambdaInference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/MethodReferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/MethodReferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/NoLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/NoLoops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java9features/Scalable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java9features/Scalable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,34 +26,57 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="654" />
+          <entry key="java" value="11323" />
+          <entry key="txt" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="654" />
+          <entry key="JAVA" value="11323" />
+          <entry key="PLAIN_TEXT" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="CLASS" value="22" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="35" />
+          <entry key="Manifest" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="MF" value="1" />
+          <entry key="class" value="22" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="35" />
+          <entry key="png" value="2" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -72,103 +85,74 @@
     <favorites_list name="COPP" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Manager.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="203">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaInference.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+            <state relative-caret-position="459">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java9features/MethodReferences.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java9features/NoLoops.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Scalable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/stackqueue/StackTest1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/InOutTesting.java">
+        <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/LaregestNumberFromArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="187">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex5.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/application/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4539">
+              <caret line="304" column="27" selection-start-line="304" selection-end-line="305" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArraySum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -182,6 +166,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lfSourceDirectoryMap</find>
+      <find>themeDirectory</find>
+      <find>cp</find>
+      <find>_project</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -193,11 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/util/GenericsEasyOne.java" />
-        <option value="$USER_HOME$/.IntelliJIdea2016.2/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/ComparetoExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Orange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/EnumUse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/Misc/EnumUse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Apple.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/ComparetoExample.java" />
@@ -208,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/PercolationVisualizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/PercolationStats.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Percolation.java" />
         <option value="$PROJECT_DIR$/src/main/java/algs4dg/StackTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/algs4dg/TestAlgs4.java" />
@@ -230,6 +216,26 @@
         <option value="$PROJECT_DIR$/src/main/java/algs4dg/basics/InOutTesting.java" />
         <option value="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex5.java" />
         <option value="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ontimecomple/ArraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/ArraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/util/ArrayUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/BucketSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/LaregestNumberFromArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesscompiler/DependencyResolutionRequiredException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesscompiler/MojoExecutionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesscompiler/CompileLess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javafxapp/WebTorrent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java" />
       </list>
     </option>
   </component>
@@ -239,10 +245,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1937" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -252,6 +259,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,54 +270,28 @@
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algs4dg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algs4dg" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algs4dg" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="copp" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/algs4.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/wiki.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3216912" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesscompiler" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Fieldglass\COPP\src\main\java\algs4dg\percolation" />
       <recent name="C:\Fieldglass\COPP\src\main\java\algs4dg\percolation " />
@@ -326,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ex6">
+  <component name="RunManager" selected="Application.StockBuySell">
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -345,24 +328,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOutTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algs4dg.basics.InOutTesting" />
-      <module name="main" />
-      <option name="PROGRAM_PARAMETERS" value="1 1 1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.copp.Main" />
+    <configuration name="ArrayMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.copp.interviewbit.onarray.ArrayMax" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algs4dg.stackqueue.StackTest1" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.copp.algorithm.sort.BubbleSort" />
+      <module name="main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomBooking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.copp.interviewbit.onarray.RoomBooking" />
+      <module name="main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.copp.interviewbit.onarray.StockBuySell" />
+      <module name="main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTorrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javafxapp.WebTorrent" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -370,22 +369,6 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algs4dg.basics.exercises11.ex5" />
-      <module name="main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algs4dg.basics.exercises11.ex6" />
-      <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -425,6 +408,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maven" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -444,19 +439,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.StackTest1" />
-      <item itemvalue="Application.InOutTesting" />
-      <item itemvalue="Application.ex5" />
-      <item itemvalue="Application.ex6" />
+      <item itemvalue="Remote.maven" />
+      <item itemvalue="Application.ArrayMax" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.RoomBooking" />
+      <item itemvalue="Application.WebTorrent" />
+      <item itemvalue="Application.StockBuySell" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ex6" />
-        <item itemvalue="Application.ex5" />
-        <item itemvalue="Application.InOutTesting" />
-        <item itemvalue="Application.StackTest1" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StockBuySell" />
+        <item itemvalue="Application.WebTorrent" />
+        <item itemvalue="Application.ArrayMax" />
+        <item itemvalue="Application.RoomBooking" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +484,31 @@
       <workItem from="1540711386358" duration="364000" />
       <workItem from="1540829969398" duration="599000" />
       <workItem from="1540907386681" duration="651000" />
-      <workItem from="1540909664544" duration="5615000" />
+      <workItem from="1540909664544" duration="9279000" />
+      <workItem from="1541149421131" duration="1208000" />
+      <workItem from="1541314803297" duration="600000" />
+      <workItem from="1541389940363" duration="1744000" />
+      <workItem from="1541416883202" duration="603000" />
+      <workItem from="1541422146162" duration="983000" />
+      <workItem from="1541990775635" duration="82000" />
+      <workItem from="1542027261155" duration="598000" />
+      <workItem from="1542211478855" duration="6840000" />
+      <workItem from="1542293348984" duration="4358000" />
+      <workItem from="1542418502496" duration="12095000" />
+      <workItem from="1542515533888" duration="14126000" />
+      <workItem from="1542767630305" duration="1582000" />
+      <workItem from="1542821540043" duration="1062000" />
+      <workItem from="1542898330398" duration="5466000" />
+      <workItem from="1542954973818" duration="1421000" />
+      <workItem from="1543847147005" duration="5102000" />
+      <workItem from="1543894112839" duration="1527000" />
+      <workItem from="1543935050017" duration="5150000" />
+      <workItem from="1544020135383" duration="3557000" />
+      <workItem from="1544986835408" duration="531000" />
+      <workItem from="1545631218966" duration="1689000" />
+      <workItem from="1545643760393" duration="342000" />
+      <workItem from="1545835601302" duration="5067000" />
+      <workItem from="1546086213652" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="Comparable">
       <created>1531474028194</created>
@@ -574,11 +594,60 @@
       <option name="project" value="LOCAL" />
       <updated>1539529937451</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="#few exercises solved">
+      <created>1540998584909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540998584909</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#ex 7 fixed">
+      <created>1541040693446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541040693446</updated>
+    </task>
+    <task id="LOCAL-00015" summary="#array problems">
+      <created>1545632052691</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545632052691</updated>
+    </task>
+    <task id="LOCAL-00016" summary="#sorts implemented">
+      <created>1545632110201</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545632110201</updated>
+    </task>
+    <task id="LOCAL-00017" summary="#num util">
+      <created>1545632163145</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1545632163145</updated>
+    </task>
+    <task id="LOCAL-00018" summary="#javaFx intialized">
+      <created>1545632284126</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1545632284126</updated>
+    </task>
+    <task id="LOCAL-00019" summary="#stock buy sell problem">
+      <created>1545846399169</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1545846399169</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67766000" />
+    <option name="totallyTimeSpent" value="148215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,27 +659,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1549" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4816" visible="true" weight="0.19677636" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" sideWeight="0.5184" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="4" />
+      <window_info id="Structure" order="0" weight="0.24966443" />
+      <window_info id="JRebel" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.23087248" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5802552" visible="true" weight="0.30508474" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.662861" weight="0.3983051" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5590604" weight="0.3044693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6456376" weight="0.32681563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49785408" weight="0.32924107" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4640558" weight="0.29910713" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49356222" weight="0.32924107" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5214592" side_tool="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.46979865" visible="true" weight="0.075418994" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49356222" weight="0.3282123" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48623237" weight="0.32909605" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.4197448" side_tool="true" visible="true" weight="0.30508474" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48389262" weight="0.3282123" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.35436243" side_tool="true" weight="0.3044693" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -620,6 +689,34 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" weight="0.24966443" />
+      <window_info id="JRebel" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.18926175" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32924107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5590604" visible="true" weight="0.3044693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6456376" weight="0.3980447" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49785408" weight="0.32924107" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.46272665" weight="0.2980226" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49356222" weight="0.3282123" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5214592" side_tool="true" weight="0.328125" />
+      <window_info anchor="bottom" id="JRebel Executor" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48389262" weight="0.3282123" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.35436243" side_tool="true" weight="0.3044693" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -663,7 +760,14 @@
     <MESSAGE value="#Java 9 Features" />
     <MESSAGE value="#algs4" />
     <MESSAGE value="#algs4 package creations for readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="#algs4 package creations for readability" />
+    <MESSAGE value="#ex 7 fixed" />
+    <MESSAGE value="#array problems" />
+    <MESSAGE value="#few exercises solved" />
+    <MESSAGE value="#sorts implemented" />
+    <MESSAGE value="#num util" />
+    <MESSAGE value="#javaFx intialized" />
+    <MESSAGE value="#stock buy sell problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="#stock buy sell problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,232 +796,216 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>274</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>325</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFiles.class</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFiles.class</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFilesMojo.class</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFiles.class</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFiles.class</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFilesMojo.class</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFilesMojo.class</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
+          <line>344</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>this.lfJs</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.lfCJs</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.lfSourceDirectoryMap.entrySet().toArray()[1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.lfSourceDirectoryMap.entrySet().toArray()[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>secondm * arr[j] + arr[j+1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>firstm * arr[j+1] + arr[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arraySorted.get(0)+arraySorted.get(1)+arraySorted.get(2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(A.get(i + 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.IntelliJIdea2016.2/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Orange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/function/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/Integer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/examples/Misc/EnumUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/examples/multiplebounds/MultipleBoundExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/ComparetoExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/GenericsEasyOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/regex/Pattern.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="3121" selection-start-line="3121" selection-end-line="3121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5500">
-          <caret line="250" column="7" selection-start-line="250" selection-start-column="7" selection-end-line="250" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/algs4.jar!/edu/princeton/cs/algs4/StdIn.java" />
-    <entry file="jar://$USER_HOME$/Downloads/algs4.jar!/edu/princeton/cs/algs4/StdStats.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/unittesting/MyUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/FastReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/PercolationVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/union/find/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/union/find/QuickFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/PercolationStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/common/TestAlgs4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/Percolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2442">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Lambda1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Interfaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaExtra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaInference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -939,13 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Scalable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -953,23 +1034,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/stackqueue/StackTest1.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/System.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/InOutTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="442">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,17 +1052,237 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex7.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex11.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/PercolationVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/PercolationStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/percolation/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/stackqueue/StackTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Collections.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/Comparator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4879">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/ArrayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/Float.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="128" column="28" lean-forward="true" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/checkserver/CheckServerMojoo.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/DeployFileMojo.class" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/ExecuteCommand.class" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesscompiler/DependencyResolutionRequiredException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesscompiler/MojoExecutionException.java" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/HelpMojo.class" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFiles.class" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/unifyfiles/UnifyFilesMojo.class" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/rtlcss/RtlCSSGenerator.class" />
+    <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/rtlcss/RtlCSSGeneratorMojo.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesscompiler/CompileLess.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafxapp/WebTorrent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/algs4.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/LaregestNumberFromArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4539">
+          <caret line="304" column="27" selection-start-line="304" selection-end-line="305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/Wikipedia_Mobile_by_Sevenval.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1735">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1000,7 +1295,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3216912" />
               </list>
             </option>
           </splitter-proportions>
@@ -1012,7 +1307,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3216912" />
               </list>
             </option>
           </splitter-proportions>
@@ -1032,7 +1327,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1069,7 +1364,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>algs4</last-edited>
+          <last-edited>wiki</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

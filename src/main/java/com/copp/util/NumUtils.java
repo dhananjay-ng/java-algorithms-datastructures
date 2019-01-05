@@ -1,5 +1,7 @@
 package com.copp.util;
 
+import edu.princeton.cs.algs4.In;
+
 public class NumUtils {
     public static int getNumOfDigits(int num ){
         int count=1;
@@ -8,5 +10,28 @@ public class NumUtils {
             num/=10;
         }
         return count;
+    }
+
+    public static boolean isAramstrong(String number){
+        int armstrongSum=0;
+        if(number!=null){
+            try{
+                for (int i=0;i<number.length();i++){
+                     armstrongSum+= Math.pow(number.charAt(i)-48,3);
+                }
+            }catch (Exception e){
+                return false;
+            }
+        }
+        if (number.equals(String.valueOf(armstrongSum))){
+            return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(NumUtils.isAramstrong("371"));
+        System.out.println(NumUtils.isAramstrong("153"));
+        System.out.println( NumUtils.isAramstrong("2"));
     }
 }

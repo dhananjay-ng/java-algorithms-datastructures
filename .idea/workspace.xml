@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="more backtracking">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/generics/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/MethodReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewCollectionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/javarecipies/java8/Java8ForEachExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/javarecipies/java8/Java8ForEachExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/javarecipies/java8/Java8ForEachExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/javarecipies/java8/Java8ForEachExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/javarecipies/java8/MyConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/javarecipies/java8/MyConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javarecipies/java8/Java8ForEachExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/Java8ForEachExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/javarecipies/java8/NewFunctionalInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/javarecipies/java8/NewFunctionalInterfaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +29,7 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="163" />
+          <entry key="project.closed" value="164" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="4" />
@@ -79,7 +77,7 @@
         <counts>
           <entry key="dummy" value="64" />
           <entry key="in" value="3" />
-          <entry key="java" value="75073" />
+          <entry key="java" value="76743" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
           <entry key="txt" value="6625" />
@@ -87,7 +85,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="75072" />
+          <entry key="JAVA" value="76742" />
           <entry key="Markdown" value="86" />
           <entry key="PLAIN_TEXT" value="6695" />
         </counts>
@@ -99,7 +97,7 @@
           <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="609" />
+          <entry key="JAVA" value="616" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="20" />
@@ -115,7 +113,7 @@
           <entry key="gitignore" value="1" />
           <entry key="iml" value="4" />
           <entry key="in" value="1" />
-          <entry key="java" value="612" />
+          <entry key="java" value="619" />
           <entry key="md" value="4" />
           <entry key="out" value="1" />
           <entry key="output" value="1" />
@@ -178,14 +176,92 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/NewCollectionMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="1273" column="13" lean-forward="true" selection-start-line="1273" selection-start-column="13" selection-end-line="1273" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -195,54 +271,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7412">
               <caret line="468" column="51" selection-start-line="468" selection-start-column="51" selection-end-line="468" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/generics/MultipleBoundExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/generics/GenericMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2414">
-              <caret line="146" column="44" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -303,10 +331,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/IBSubset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/Combinations.java" />
-        <option value="$PROJECT_DIR$/src/main/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PhoneKeypad.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/undirected/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/undirected/UndirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/UndirectedGraph.java" />
@@ -354,6 +378,10 @@
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/ConsumerExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewCollectionMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java" />
       </list>
     </option>
   </component>
@@ -453,80 +481,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javarecipies" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javarecipies" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javarecipies" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="LambdaDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="creatingthreads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="misccode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="misccode" type="462c0819:PsiDirectoryNode" />
-              <item name="GFG.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="he" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -590,7 +557,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewFunctionalInterfaces">
+  <component name="RunManager" selected="Application.OneSynchronizedUse">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -644,24 +611,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentModification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.collections.ConcurrentModification" />
+    <configuration name="MyReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.MyReducer" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8ForEachExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.Java8ForEachExample" />
-      <module name="main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.MethodReferences" />
+    <configuration name="NewCollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.NewCollectionMethods" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -676,8 +635,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutInvesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.trading.WithoutInvesting" />
+    <configuration name="OneSynchronizedUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.concurrency.creatingthreads.OneSynchronizedUse" />
+      <module name="main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsAnatomy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.StreamsAnatomy" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -729,19 +696,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.WithoutInvesting" />
-      <item itemvalue="Application.ConcurrentModification" />
-      <item itemvalue="Application.Java8ForEachExample" />
-      <item itemvalue="Application.MethodReferences" />
       <item itemvalue="Application.NewFunctionalInterfaces" />
+      <item itemvalue="Application.NewCollectionMethods" />
+      <item itemvalue="Application.MyReducer" />
+      <item itemvalue="Application.StreamsAnatomy" />
+      <item itemvalue="Application.OneSynchronizedUse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneSynchronizedUse" />
+        <item itemvalue="Application.StreamsAnatomy" />
+        <item itemvalue="Application.MyReducer" />
+        <item itemvalue="Application.NewCollectionMethods" />
         <item itemvalue="Application.NewFunctionalInterfaces" />
-        <item itemvalue="Application.MethodReferences" />
-        <item itemvalue="Application.Java8ForEachExample" />
-        <item itemvalue="Application.ConcurrentModification" />
-        <item itemvalue="Application.WithoutInvesting" />
       </list>
     </recent_temporary>
   </component>
@@ -939,7 +906,7 @@
       <workItem from="1577444073451" duration="4599000" />
       <workItem from="1577521648856" duration="4658000" />
       <workItem from="1577859763921" duration="12087000" />
-      <workItem from="1578297799920" duration="3374000" />
+      <workItem from="1578297799920" duration="10392000" />
     </task>
     <task id="LOCAL-00136" summary="#mergesort linkedlist">
       <created>1561836409137</created>
@@ -1302,7 +1269,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="774024000" />
+    <option name="totallyTimeSpent" value="781042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1324,17 +1291,17 @@
       <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2657718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.26815644" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64161074" visible="true" weight="0.30865923" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6409396" weight="0.30865923" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53557044" weight="0.46927375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.44228187" weight="0.3114525" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4442953" weight="0.3114525" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4919463" weight="0.2849162" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35838926" side_tool="true" weight="0.2444134" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4785235" weight="0.3282123" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.552349" side_tool="true" weight="0.3198324" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.3590604" side_tool="true" visible="true" weight="0.30865923" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="15" show_stripe_button="false" />
@@ -1521,55 +1488,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/ongraph/MatrixEnclosedRegions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/ongraph/TopologicalSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/graph/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/ongraph/DeadlockDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/ongraph/DetectCycleInGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/UniqueBinarySearchTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/ongraph/GraphClone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1923,10 +1841,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="1273" column="13" lean-forward="true" selection-start-line="1273" selection-start-column="13" selection-end-line="1273" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/NewCollectionMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="387" column="14" selection-start-line="387" selection-start-column="14" selection-end-line="387" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
           </folding>
         </state>
       </provider>

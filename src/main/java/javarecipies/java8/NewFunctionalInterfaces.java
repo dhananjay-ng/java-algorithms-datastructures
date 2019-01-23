@@ -27,10 +27,6 @@ public class NewFunctionalInterfaces {
         Predicate<Integer> isGreaterThan10 = x-> x>10;
         printer.accept(isGreaterThan10.test(9));
 
-
-
-
-
     }
 
 }

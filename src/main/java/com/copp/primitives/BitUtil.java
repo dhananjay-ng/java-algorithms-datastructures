@@ -38,7 +38,7 @@ public class BitUtil {
      * return a non zero number (2i to be specific), else 0 will be returned.
      * Using Left shift operator, we can write 2i as 1 << i . Therefore:
      */
-    public static boolean isIthBitSet(int n, int i) {
+    private static boolean isIthBitSet(int n, int i) {
         return (n & (1 << i)) > 0;
     }
 
@@ -500,7 +500,7 @@ public class BitUtil {
         byte x1;
         byte x2;
         long sum = 0;
-        int i = 0;
+        int i ;
         for (i = 0; i < 64; i++) {
             x1 = (byte) ((res >> i) & 1);
             x2 = (byte) ((x >> i) & 1);
@@ -527,6 +527,34 @@ public class BitUtil {
         }
 
         return sum;
+    }
+    public static double powerWithBit(double x, int y) {
+        double res=1.0d;
+        if (y<0){
+            y*=-1;
+            x=1/x;
+        }
+        while (y!=0){
+            if ((y & 1) == 1) {
+                res *= x;
+            }
+            x*=x;
+            y>>>=1;
+        }
+        return res;
+    }
+
+    public static double power(double x, int y) {
+        double res=1.0d;
+        if (y<0){
+            x=1/x;
+            y*=-1;
+        }
+        while (y!=0){
+            res*=x;
+            y--;
+        }
+        return res;
     }
 
     public static void main(String[] args) {

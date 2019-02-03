@@ -557,15 +557,24 @@ public class BitUtil {
         return res;
     }
 
-    public static void main(String[] args) {
-        //Weekend to do
-        //1.reverse bit solution proper
-        System.out.println(pow(3,3));
+    public static long reverseDigits(int x) {
+        long res=0;
+        long xRemaining=Math.abs(x);
+        while (xRemaining!=0){
+            res=res*10+(xRemaining%10);
+            xRemaining/=10;
+        }
+        return x<0?-res:res;
+    }
 
+    public static void main(String[] args) {
+        System.out.println(reverseDigits(42));
     }
 
     /*
     private void SampleTestCaseRun(){
+     System.out.println(pow(3,3));
+
      //System.out.println(BitUtil.multiply(38575,65043));
         System.out.println(BitUtil.add(377704701, 2131329024));
 

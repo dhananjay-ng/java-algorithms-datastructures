@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="#few exercises solved">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/wiki.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algs4dg/basics/exercises11/ex7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javafxapp/WebTorrent.java" beforeDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,44 +27,49 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.3" value="10" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11323" />
-          <entry key="txt" value="123" />
+          <entry key="java" value="15052" />
+          <entry key="txt" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11323" />
-          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="JAVA" value="15052" />
+          <entry key="PLAIN_TEXT" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="22" />
+          <entry key="CLASS" value="24" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="43" />
           <entry key="Manifest" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -72,9 +78,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="22" />
+          <entry key="class" value="24" />
           <entry key="iml" value="2" />
-          <entry key="java" value="35" />
+          <entry key="java" value="43" />
           <entry key="png" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -87,27 +93,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="4036">
+              <caret line="296" column="13" lean-forward="true" selection-start-line="296" selection-start-column="13" selection-end-line="296" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5159#5160#0" expanded="true" />
+                <element signature="e#5221#5222#0" expanded="true" />
+                <element signature="e#5284#5285#0" expanded="true" />
+                <element signature="e#5329#5330#0" expanded="true" />
+                <element signature="e#5384#5385#0" expanded="true" />
+                <element signature="e#5420#5421#0" expanded="true" />
+                <element signature="e#5474#5475#0" expanded="true" />
+                <element signature="e#5509#5510#0" expanded="true" />
+                <element signature="e#5571#5572#0" expanded="true" />
+                <element signature="e#5602#5603#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/Template.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/BitSet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/Integer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -115,44 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/main.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/LaregestNumberFromArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/application/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4539">
-              <caret line="304" column="27" selection-start-line="304" selection-end-line="305" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArraySum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="289">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -178,6 +210,7 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Dhananjay Nagargoje &lt;dhanu10896@gmail.com&gt;" />
+        <option value="Dhananjay Nagargoje &lt;dhananjay.nagargoje@sap.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/Misc/EnumUse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Apple.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/ComparetoExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/examples/comparator/Fruit.java" />
@@ -226,16 +258,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/BucketSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/Radix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/LaregestNumberFromArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesscompiler/DependencyResolutionRequiredException.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesscompiler/MojoExecutionException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesscompiler/CompileLess.java" />
         <option value="$PROJECT_DIR$/src/main/java/javafxapp/WebTorrent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java" />
       </list>
     </option>
   </component>
@@ -251,6 +284,51 @@
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -258,25 +336,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
@@ -284,9 +344,10 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/wiki.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3216912" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -309,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StockBuySell">
+  <component name="RunManager" selected="Application.BitUtil">
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -336,16 +397,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.copp.algorithm.sort.BubbleSort" />
+    <configuration name="BitUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.copp.primitives.BitUtil" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoomBooking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.copp.interviewbit.onarray.RoomBooking" />
+    <configuration name="NumUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.copp.util.NumUtils" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -441,18 +502,18 @@
     <list>
       <item itemvalue="Remote.maven" />
       <item itemvalue="Application.ArrayMax" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.RoomBooking" />
       <item itemvalue="Application.WebTorrent" />
       <item itemvalue="Application.StockBuySell" />
+      <item itemvalue="Application.BitUtil" />
+      <item itemvalue="Application.NumUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitUtil" />
+        <item itemvalue="Application.NumUtils" />
         <item itemvalue="Application.StockBuySell" />
         <item itemvalue="Application.WebTorrent" />
         <item itemvalue="Application.ArrayMax" />
-        <item itemvalue="Application.RoomBooking" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -509,6 +570,22 @@
       <workItem from="1545643760393" duration="342000" />
       <workItem from="1545835601302" duration="5067000" />
       <workItem from="1546086213652" duration="1052000" />
+      <workItem from="1546253581037" duration="76000" />
+      <workItem from="1546558120673" duration="173000" />
+      <workItem from="1546558307221" duration="4464000" />
+      <workItem from="1546659337294" duration="2244000" />
+      <workItem from="1546830096467" duration="37000" />
+      <workItem from="1546871064017" duration="6387000" />
+      <workItem from="1547007284947" duration="1453000" />
+      <workItem from="1547044065388" duration="583000" />
+      <workItem from="1547485566779" duration="1300000" />
+      <workItem from="1547521735922" duration="636000" />
+      <workItem from="1547574601162" duration="634000" />
+      <workItem from="1548340506656" duration="6892000" />
+      <workItem from="1548693284514" duration="1893000" />
+      <workItem from="1548780792122" duration="2062000" />
+      <workItem from="1549083655239" duration="4714000" />
+      <workItem from="1549116863056" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="Comparable">
       <created>1531474028194</created>
@@ -643,11 +720,32 @@
       <option name="project" value="LOCAL" />
       <updated>1545846399169</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="#few exercises solved">
+      <created>1546253622783</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546253622783</updated>
+    </task>
+    <task id="LOCAL-00021" summary="#added bitutil">
+      <created>1546572778101</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546572778101</updated>
+    </task>
+    <task id="LOCAL-00022" summary="#few exercises solved">
+      <created>1546660212912</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1546660212912</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148215000" />
+    <option name="totallyTimeSpent" value="184345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,26 +758,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" weight="0.24966443" />
+      <window_info id="Structure" order="0" visible="true" weight="0.26308724" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.23087248" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" weight="0.27315435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5590604" weight="0.3044693" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6456376" weight="0.32681563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55838925" weight="0.3044693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6449664" weight="0.32681563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49785408" weight="0.32924107" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.46979865" visible="true" weight="0.075418994" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4691275" visible="true" weight="0.2932961" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49356222" weight="0.3282123" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48389262" weight="0.3282123" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.35436243" side_tool="true" weight="0.3044693" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.53087246" side_tool="true" visible="true" weight="0.2932961" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -762,12 +859,13 @@
     <MESSAGE value="#algs4 package creations for readability" />
     <MESSAGE value="#ex 7 fixed" />
     <MESSAGE value="#array problems" />
-    <MESSAGE value="#few exercises solved" />
     <MESSAGE value="#sorts implemented" />
     <MESSAGE value="#num util" />
     <MESSAGE value="#javaFx intialized" />
     <MESSAGE value="#stock buy sell problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="#stock buy sell problem" />
+    <MESSAGE value="#added bitutil" />
+    <MESSAGE value="#few exercises solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="#few exercises solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,31 +896,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>137</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>148</line>
+          <line>146</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>142</line>
+          <line>140</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>105</line>
+          <line>103</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>183</line>
+          <line>181</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -834,19 +932,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>197</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>274</line>
+          <line>272</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>325</line>
+          <line>323</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -876,7 +974,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java</url>
-          <line>24</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -954,9 +1052,51 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java</url>
-          <line>344</line>
+          <line>342</line>
           <properties />
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/Integer.class</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -964,83 +1104,53 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>this.lfJs</expression-string>
+        <expression-string>Long.toBinaryString(x)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.lfCJs</expression-string>
+        <expression-string>Long.toBinaryString(res)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.lfSourceDirectoryMap.entrySet().toArray()[1]</expression-string>
+        <expression-string>x&gt;&gt;i</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.lfSourceDirectoryMap.entrySet().toArray()[0]</expression-string>
+        <expression-string>BitUtil.toBinaryString(65043)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>secondm * arr[j] + arr[j+1]</expression-string>
+        <expression-string>n&amp;(1&lt;&lt;j)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>firstm * arr[j+1] + arr[j]</expression-string>
+        <expression-string>j&lt;&lt;1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>arraySorted.get(0)+arraySorted.get(1)+arraySorted.get(2)</expression-string>
+        <expression-string>j</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(A.get(i + 1)</expression-string>
+        <expression-string>(a&amp;1&lt;&lt;i)&gt;&gt;&gt;i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(a&amp;1&lt;&lt;j)&gt;&gt;&gt;j</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/LambdaInference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/MethodReferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/NoLoops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java9features/Scalable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algs4dg/basics/InOutTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1166,13 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/DeployFileMojo.class" />
     <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/ExecuteCommand.class" />
     <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/lesscompile/LessCompilerMojo.class" />
@@ -1184,26 +1287,6 @@
     <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/rtlcss/RtlCSSGenerator.class" />
     <entry file="jar://$USER_HOME$/Downloads/insite-maven-plugin-1.9.3.1-20181119.020321-1.jar!/insite/maven/plugin/rtlcss/RtlCSSGeneratorMojo.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesscompiler/CompileLess.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javafxapp/WebTorrent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/algs4.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1211,25 +1294,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/icon.png" />
+    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/META-INF/MANIFEST.MF" />
+    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/Wikipedia_Mobile_by_Sevenval.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1238,16 +1314,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4539">
+        <state relative-caret-position="273">
           <caret line="304" column="27" selection-start-line="304" selection-end-line="305" />
         </state>
       </provider>
@@ -1259,36 +1331,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafxapp/WebTorrent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/primitives/BitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="4036">
+          <caret line="296" column="13" lean-forward="true" selection-start-line="296" selection-start-column="13" selection-end-line="296" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5159#5160#0" expanded="true" />
+            <element signature="e#5221#5222#0" expanded="true" />
+            <element signature="e#5284#5285#0" expanded="true" />
+            <element signature="e#5329#5330#0" expanded="true" />
+            <element signature="e#5384#5385#0" expanded="true" />
+            <element signature="e#5420#5421#0" expanded="true" />
+            <element signature="e#5474#5475#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5571#5572#0" expanded="true" />
+            <element signature="e#5602#5603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/wiki.jar!/Wikipedia_Mobile_by_Sevenval.class">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1735">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/algorithm/sort/BucketSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/ArrayMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/RoomBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/interviewbit/onarray/StockBuySell.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/util/BitSet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/Integer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/copp/util/NumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3216912" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />

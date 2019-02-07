@@ -1,4 +1,4 @@
-package com.ds.collection;
+package com.ds.collection.stack;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

@@ -2,18 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="more backtracking">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/airlinemgmt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/amazon.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/atm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/blackjack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/brokeragesystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/carrentel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/chess.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/cricinfo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/facebook.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/hotelmgmt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/librarymgmt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/linkedin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/moviebookingticket.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/parkinglot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/restaurant.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/stackoverflow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/DistinctPermu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SubsetsWithTargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/MaxDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/DistinctPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onsearching/RoatetedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onsearching/SmallestBaseAllOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/AllMissingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/CyclicSortBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/onlinkedlistreversal/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxInEachWIndow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/Sieve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/Sieve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/ontwopointerstrategy/BinaryArraySorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/ontwopointerstrategy/DeleteMiddleOfList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/ontwopointerstrategy/TripLetWithZeroSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/CodeShef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/CodeShef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/BinaryArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/ontwopointerstrategy/BinaryArraySorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/DeleteMiddleOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/ontwopointerstrategy/DeleteMiddleOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/TripLetWithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/ontwopointerstrategy/TripLetWithZeroSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" afterDir="false" />
     </list>
-    <ignored path="COPP.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <ignored mask="*.jar" />
-    <ignored path=".idea/checkstyleidea-libs/readme.txt" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,213 +51,8 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1493825785">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="165" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="7" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="7" />
-          <entry key="project.open.time.13" value="6" />
-          <entry key="project.open.time.14" value="5" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="4" />
-          <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.198" value="1" />
-          <entry key="project.open.time.2" value="16" />
-          <entry key="project.open.time.20" value="5" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="3" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.28" value="2" />
-          <entry key="project.open.time.29" value="3" />
-          <entry key="project.open.time.3" value="19" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.4" value="10" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.42" value="2" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="14" />
-          <entry key="project.open.time.50" value="1" />
-          <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.6" value="8" />
-          <entry key="project.open.time.61" value="1" />
-          <entry key="project.open.time.7" value="8" />
-          <entry key="project.open.time.8" value="12" />
-          <entry key="project.open.time.9" value="9" />
-          <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="172" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="64" />
-          <entry key="in" value="3" />
-          <entry key="java" value="76842" />
-          <entry key="md" value="86" />
-          <entry key="output" value="2" />
-          <entry key="txt" value="6626" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="76841" />
-          <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="6696" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="27" />
-          <entry key="Git file" value="2" />
-          <entry key="IDEA_MODULE" value="4" />
-          <entry key="Image" value="3" />
-          <entry key="JAVA" value="623" />
-          <entry key="Manifest" value="1" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="XML" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="MF" value="1" />
-          <entry key="class" value="27" />
-          <entry key="gif" value="1" />
-          <entry key="gitignore" value="2" />
-          <entry key="iml" value="4" />
-          <entry key="in" value="1" />
-          <entry key="java" value="626" />
-          <entry key="md" value="4" />
-          <entry key="out" value="1" />
-          <entry key="output" value="1" />
-          <entry key="png" value="2" />
-          <entry key="txt" value="12" />
-          <entry key="vmoptions" value="2" />
-          <entry key="xml" value="7" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="COPP" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Allfactors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Sieve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7412">
-              <caret line="468" column="51" selection-start-line="468" selection-start-column="51" selection-end-line="468" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -264,11 +88,14 @@
       <find>Comparator</find>
       <find>largestPermutaionAfterKSwaps</find>
       <find>long</find>
+      <find>]</find>
     </findStrings>
     <replaceStrings>
       <replace>`</replace>
       <replace>TreeNode</replace>
       <replace>int</replace>
+      <replace>{</replace>
+      <replace>}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -281,75 +108,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/FIndJudge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/TestUndirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/DepthFirstPaths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/HENewLang.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/SearchMaze.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onbinarytree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/LevelOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/PaintMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/MatrixConnectedRegions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/MaxEnclosedRegions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/MatrixEnclosedRegions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/DeadlockDetection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/GraphClone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/TopologicalSorting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/DetectCycleInGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/DPMinStepsToReduceToOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/ClimbingStairsDp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/DPMinStepsToReduceToOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/HouseRobber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/MaximumSubarray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/WineProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/MinimumCostInGrid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/RodCutting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/EditDistance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/trading/WithoutInvesting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/KOrderedLCS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/collections/ConcurrentModification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/Java8ForEachExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/Lambda.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/generics/GenericMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/LambdaDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/MethodReferences.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/ConsumerExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/NewCollectionMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Allfactors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Sieve.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
+  <component name="ProjectId" id="1YKlSgMHuSB6fQwCDs6q8xbPfMA" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -398,72 +163,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="slidingwindows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="misccode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="he" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="COPP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -475,6 +178,12 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jogl-all.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3216912" />
@@ -498,19 +207,13 @@
       <recent name="C:\Fieldglass\COPP\src\main\java\algs4dg\percolation " />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Sieve">
+  <component name="RunManager" selected="Application.DistinctPermu">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -558,46 +261,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Allfactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onmath.gfg.Allfactors" />
+    <configuration name="DistinctPermu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.DistinctPermu" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.MyReducer" />
+    <configuration name="DistinctPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onmath.gfg.DistinctPermutations" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneSynchronizedUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.concurrency.creatingthreads.OneSynchronizedUse" />
+    <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.Permute" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onmath.gfg.Sieve" />
+    <configuration name="RoatetedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onsearching.RoatetedArray" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsAnatomy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.java8.StreamsAnatomy" />
+    <configuration name="SmallestBaseAllOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onsearching.SmallestBaseAllOne" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -611,33 +308,35 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maven" type="Remote" factoryName="Remote">
+    <configuration name="maven" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="8000" />
+      <option name="AUTO_RESTART" value="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="8000" />
         <option name="LOCAL" value="false" />
       </RunnerSettings>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -647,23 +346,34 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Applet.Unnamed" />
+      <item itemvalue="Application.DistinctPermutations" />
+      <item itemvalue="Application.RoatetedArray" />
+      <item itemvalue="Application.SmallestBaseAllOne" />
+      <item itemvalue="Application.Permute" />
+      <item itemvalue="Application.DistinctPermu" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.MyReducer" />
-      <item itemvalue="Application.StreamsAnatomy" />
-      <item itemvalue="Application.OneSynchronizedUse" />
-      <item itemvalue="Application.Allfactors" />
-      <item itemvalue="Application.Sieve" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sieve" />
-        <item itemvalue="Application.Allfactors" />
-        <item itemvalue="Application.OneSynchronizedUse" />
-        <item itemvalue="Application.StreamsAnatomy" />
-        <item itemvalue="Application.MyReducer" />
+        <item itemvalue="Application.DistinctPermu" />
+        <item itemvalue="Application.Permute" />
+        <item itemvalue="Application.SmallestBaseAllOne" />
+        <item itemvalue="Application.RoatetedArray" />
+        <item itemvalue="Application.DistinctPermutations" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -861,7 +571,19 @@
       <workItem from="1577859763921" duration="12087000" />
       <workItem from="1578297799920" duration="10392000" />
       <workItem from="1578411516053" duration="1212000" />
-      <workItem from="1578584457519" duration="4085000" />
+      <workItem from="1578584457519" duration="14044000" />
+      <workItem from="1579281311625" duration="1908000" />
+      <workItem from="1579322403768" duration="4734000" />
+      <workItem from="1580314785616" duration="776000" />
+      <workItem from="1580635083107" duration="547000" />
+      <workItem from="1580960914176" duration="1240000" />
+      <workItem from="1581337847514" duration="1725000" />
+      <workItem from="1581818832314" duration="7731000" />
+      <workItem from="1581855015547" duration="667000" />
+      <workItem from="1581865455768" duration="28000" />
+      <workItem from="1582442112537" duration="3214000" />
+      <workItem from="1582699173289" duration="2583000" />
+      <workItem from="1582809523168" duration="356000" />
     </task>
     <task id="LOCAL-00137" summary="#sorting 012">
       <created>1562003771262</created>
@@ -1223,9 +945,6 @@
       <configuration name="StringProblemTests.judgeCircle" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="786339000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -1234,70 +953,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Structure" order="0" weight="0.27114093" />
-      <window_info id="JRebel" order="1" side_tool="true" />
-      <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6395973" weight="0.30865923" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53355706" weight="0.27234638" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.44362417" visible="true" weight="0.3114525" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4919463" weight="0.2849162" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35838926" side_tool="true" weight="0.2444134" />
-      <window_info anchor="bottom" id="JRebel Executor" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4785235" weight="0.3282123" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.55637586" side_tool="true" visible="true" weight="0.3114525" />
-      <window_info anchor="bottom" id="SonarLint" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="16" sideWeight="0.4986577" weight="0.32960895" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" weight="0.27114093" />
-      <window_info id="JRebel" order="1" side_tool="true" />
-      <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2181208" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64161074" visible="true" weight="0.2444134" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53557044" weight="0.41759777" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.44228187" weight="0.23882681" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4919463" weight="0.2849162" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.35838926" side_tool="true" visible="true" weight="0.2444134" />
-      <window_info anchor="bottom" id="JRebel Executor" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4785235" weight="0.3282123" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.552349" side_tool="true" weight="0.3198324" />
-      <window_info anchor="bottom" id="SonarLint" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="16" sideWeight="0.4986577" weight="0.32960895" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1308,20 +963,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -1335,9 +977,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cp #math WaysToSelectSixNumberOutOf49" />
@@ -1367,6 +1006,28 @@
     <MESSAGE value="more backtracking" />
     <option name="LAST_COMMIT_MESSAGE" value="more backtracking" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="402" height="466" key="DebuggerActiveHint" timestamp="1582699794736">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="402" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1582699794736" />
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1582703522813">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582703522813" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1582703522812">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582703522812" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1582703522812">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582703522812" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1582703522812">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582703522812" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1377,19 +1038,44 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/websites/he/TestClass.java</url>
           <line>79</line>
-          <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Allfactors.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxInEachWIndow.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onsearching/RoatetedArray.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onsearching/RoatetedArray.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onsearching/RoatetedArray.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onsearching/SmallestBaseAllOne.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/DistinctPermu.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1447,413 +1133,6 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/MaximumSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SubSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/WineProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="159" column="16" selection-start-line="159" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/ClimbingStairsDp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/CoinChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/DistinctSubsequences2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/websites/he/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/MinimumCostInGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/RodCutting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/EditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/trading/WithoutInvesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/Reader2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="86" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="1022" column="51" selection-start-line="1022" selection-start-column="51" selection-end-line="1022" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/KOrderedLCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/collections/ConcurrentModification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" selection-start-line="14" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/Java8ForEachExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/generics/MultipleBoundExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/generics/GenericMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="146" column="44" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/DoubleSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/ToDoubleBiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/ToDoubleFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/ObjIntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="387" column="14" selection-start-line="387" selection-start-column="14" selection-end-line="387" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/LambdaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/MethodReferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/NewFunctionalInterfaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/NewCollectionMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21199">
-          <caret line="1273" column="13" selection-start-line="1273" selection-start-column="13" selection-end-line="1273" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7412">
-          <caret line="468" column="51" selection-start-line="468" selection-start-column="51" selection-end-line="468" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Allfactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Sieve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

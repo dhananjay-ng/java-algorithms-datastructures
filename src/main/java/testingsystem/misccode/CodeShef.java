@@ -14,18 +14,26 @@ public class CodeShef {
             int t = in.nextInt();
             while (t-- >= 0) {
                 int n = in.nextInt();
-                String c = in.next();
-                HashSet<Character> seen = new HashSet<>();
-                int length = 0;
-                for (int i=0;i<c.length();i++) {
-                    if (seen.contains(c.charAt(i))) {
-                        length = c.length() - i;
-                        break;
-                    }
-                    seen.add(c.charAt(i));
+                long a = in.nextLong();
+                long s = 1l;
+                for (int i=0;i<=n;i++)
+                    s=s*10;
+
+                s*=5;
+
+
+
+                System.out.println(s);
+                System.out.flush();
+                long b = in.nextLong();
+                System.out.println(1);
+                System.out.flush();
+                long d = in.nextInt();
+                System.out.println(s - a - b - 1 - d);
+                System.out.flush();
+                long x = in.nextLong();
+                if (x == -1) System.exit(-1);
                 }
-                System.out.println(length);
-            }
         } catch (Exception e) {
             return;
         }

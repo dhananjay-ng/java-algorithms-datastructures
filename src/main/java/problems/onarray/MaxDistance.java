@@ -1,5 +1,8 @@
 package problems.onarray;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class MaxDistance {
 
 
@@ -15,7 +18,7 @@ public class MaxDistance {
      * Output : 2
      * for the pair (3, 4)
      */
-    public class Solution {
+     class Solution {
         // DO NOT MODIFY THE LIST. IT IS READ ONLY
         public int maximumGap(final List<Integer> A) {
             if(A.size() == 0) return -1;
@@ -48,5 +51,47 @@ public class MaxDistance {
             return max;
         }
     }
+
+     class Solution2 {
+
+        class Node implements Comparable<Node> {
+            public int n;
+            public int indx;
+
+            public Node(int n, int indx){
+                this.n = n;
+                this.indx = indx;
+            }
+
+            public int compareTo(int no) {
+                return this.n -no;
+            }
+
+            @Override
+            public int compareTo(Node o) {
+                return this.n - o.n;
+            }
+        }
+        // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
+        public int maximumGap(final int[] A) {
+            Node[] nodes = new Node[A.length];
+            for(int i=0;i<A.length;i++){
+                nodes[i] = new Node(A[i],i);
+            }
+            Arrays.sort(nodes);
+            nodes[nodes.length-1].n = nodes[nodes.length-1].indx;
+            for (int i=nodes.length - 2;i >= 0; i--) {
+                nodes[i].n = Math.max(nodes[i].indx, nodes[i+1].indx);
+            }
+
+            int max = Integer.MIN_VALUE;
+            for(int i=0;i<nodes.length;i++) {
+                max = Math.max(nodes[i].n - nodes[i].indx, max);
+            }
+            return max;
+        }
+
+    }
+
 
 }

@@ -1,5 +1,7 @@
 package com.ds.problems.onarray;
 
+import java.util.List;
+
 public class StockBuySell {
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public static int maxProfit(final int[] A) {
@@ -34,6 +36,21 @@ public class StockBuySell {
             }
             return maxProfit;
 
+    }
+    public static double computeMaxProfit(List<Double> prices) {
+        if (prices.size() <2) return 0;
+        double maxp = Double.MIN_VALUE;
+        double curMin = prices.get(0);
+        for (int i=1;i<prices.size();i++) {
+            if (prices.get(i)< curMin) {
+                curMin = prices.get(i);
+            } else if (prices.get(i) - curMin > maxp) {
+                maxp =prices.get(i)-curMin;
+            }
+        }
+
+
+        return maxp;
     }
 
     public static void main(String[] args) {

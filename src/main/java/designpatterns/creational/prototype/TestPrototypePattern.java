@@ -16,7 +16,7 @@ public class TestPrototypePattern {
             System.out.println(moviePrototype2);
 
 
-            String albumPrototype2= PrototypeFactory.getInstance(PrototypeFactory.ModelType.ALBUM).toString();
+            String albumPrototype2 = PrototypeFactory.getInstance(PrototypeFactory.ModelType.ALBUM).toString();
             System.out.println(albumPrototype);
 
             String showPrototype2 = PrototypeFactory.getInstance(PrototypeFactory.ModelType.SHOW).toString();

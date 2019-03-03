@@ -1,3 +1,5 @@
+package testingsystem.misccode;
+
 import java.util.Arrays;
 
 public class FastCollinearPoints {

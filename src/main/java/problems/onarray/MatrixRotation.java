@@ -4,6 +4,24 @@ import java.util.List;
 
 public class MatrixRotation {
 
+
+    public static void rotateMatrix2(List<List<Integer>> squareMatrix) {
+
+        final int matrixSize = squareMatrix.size() - 1;
+        for (int i = 0; i < (squareMatrix.size() / 2); i++) {
+            for (int j = i; j < matrixSize - i; j++) {
+                int temp1 = squareMatrix.get(i).get(j);
+                int temp2 = squareMatrix.get(j).get(matrixSize - i);
+                int temp3 = squareMatrix.get(matrixSize - i).get(matrixSize - j);
+                int temp4 = squareMatrix.get(matrixSize - j).get(i);
+
+                squareMatrix.get(j).set(matrixSize - i, temp1);
+                squareMatrix.get(matrixSize - i).set(matrixSize - j, temp2);
+                squareMatrix.get(matrixSize - j).set(i, temp3);
+                squareMatrix.get(i).set(j, temp4);
+            }
+        }
+    }
     //Time O(n^2) , Space : inPlace
     public static void rotateMatrix(List<List<Integer>> squareMatrix) {
         int shift = squareMatrix.size() - 1;
@@ -17,28 +35,20 @@ public class MatrixRotation {
 
                 int secondLi = li + incrIndx,
                         secondRi = ri + curShift,
-                        thirdLi  = li + curShift + incrIndx,
-                        thirdRi  = ri + curShift - incrIndx,
+                        thirdLi = li + curShift + incrIndx,
+                        thirdRi = ri + curShift - incrIndx,
                         fourthLi = li + curShift,
-                        fourthRi = ri - incrIndx;
+                        fourthRi = ri - incrIndx,
 
+                        firstEle = squareMatrix.get(li).get(ri),
+                        secondEle = squareMatrix.get(secondLi).get(secondRi),
+                        thirdEle = squareMatrix.get(thirdLi).get(thirdRi),
+                        fourthEle = squareMatrix.get(fourthLi).get(fourthRi);
 
-                int previous = squareMatrix.get(li).get(ri);
-                int next = squareMatrix.get(secondLi).get(secondRi);
-
-
-                squareMatrix.get(secondLi).set(secondRi, previous);
-                previous = next;
-
-                next = squareMatrix.get(thirdLi).get(thirdRi);
-                squareMatrix.get(thirdLi).set(thirdRi, previous);
-
-                previous = next;
-                next = squareMatrix.get(fourthLi).get(fourthRi);
-
-                squareMatrix.get(fourthLi).set(fourthRi, previous);
-
-                squareMatrix.get(li).set(ri, next);
+                squareMatrix.get(secondLi).set(secondRi, firstEle);
+                squareMatrix.get(thirdLi).set(thirdRi, secondEle);
+                squareMatrix.get(fourthLi).set(fourthRi, thirdEle);
+                squareMatrix.get(li).set(ri, firstEle);
 
                 ri++;
                 incrIndx++;

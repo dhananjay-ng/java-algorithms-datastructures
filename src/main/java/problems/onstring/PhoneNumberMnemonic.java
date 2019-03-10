@@ -8,7 +8,29 @@ public class PhoneNumberMnemonic {
     private static final String[] MAPPING
             = {"0", "1", "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"};
 
+    //recursion to generate all the mnemonics O(4^n)
     public static List<String> phoneMnemonic(String phoneNumber) {
+        char[] partialMnemonic = new char [phoneNumber . length() ] ;
+        List<String> mnemonics = new ArrayList <>() ;
+        phoneMnemonicHelper (phoneNumber , 0, partialMnemonic , mnemonics);
+        return mnemonics;
+
+    }
+
+    private static void phoneMnemonicHelper(String phoneNumber, int digit, char[] partialMnemonic, List<String> mnemonics) {
+        if (digit == phoneNumber.length()){
+            mnemonics.add(new String(partialMnemonic));
+        }
+        else {
+            for (int i=0;i < MAPPING[phoneNumber.charAt(digit) - '0'].length(); i++){
+                char c = MAPPING[phoneNumber.charAt(digit) - '0'].charAt(i);
+                partialMnemonic[digit]=c;
+                phoneMnemonicHelper(phoneNumber,digit+1,partialMnemonic,mnemonics);
+            }
+        }
+    }
+
+    public static List<String> phoneMnemonicBrute(String phoneNumber) {
         int nl = phoneNumber.length() - 1;
         List<String> res = new ArrayList<>();
         StringBuilder stringBuilder = new StringBuilder();
@@ -113,4 +135,4 @@ public class PhoneNumberMnemonic {
         return res;
     }
 
-}
+    }

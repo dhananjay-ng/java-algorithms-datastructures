@@ -14,6 +14,15 @@ public class SubStringSearch {
         }
         return -1;
     }
+    public static int naiveOneLoop(String t, String s) {
+        int i, j;
+        for (i = 0, j = 0; i < t.length() && j < s.length(); i++) {
+            if (s.charAt(j) == t.charAt(i)) j++;
+            else { i -= j; j=0;}                //explicit backup
+        }
+        if (j == s.length()) return i - j;
+        return -1;
+    }
 
     public static void main(String[] args) {
         System.out.println(naiveSS("Hi this is me","is"));

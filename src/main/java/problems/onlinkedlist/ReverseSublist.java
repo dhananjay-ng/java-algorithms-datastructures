@@ -7,6 +7,26 @@ public class ReverseSublist {
 
     public static ListNode<Integer> reverseSublist(ListNode<Integer> L, int start,
                                                    int finish) {
+        ListNode<Integer> dummyHead = new ListNode<>(0, L);
+        ListNode<Integer> subListStart = dummyHead;
+        if (L == null || start == finish) return L;
+        int i=1;
+        while (i++ < start) {
+            subListStart = subListStart.next;
+        }
+
+        ListNode<Integer> prev = subListStart.next;
+        for (int k = start; k < finish; k++) {
+            ListNode<Integer> tempNextNode = prev.next;
+            prev.next = tempNextNode.next;
+            tempNextNode.next = subListStart.next;
+            subListStart.next = tempNextNode;
+        }
+        return dummyHead.next;
+    }
+
+    public static ListNode<Integer> reverseSublist2(ListNode<Integer> L, int start,
+                                                   int finish) {
         ListNode<Integer> startNode;
         ListNode<Integer> endNode;
         ListNode<Integer> prev;
@@ -43,10 +63,10 @@ public class ReverseSublist {
 
     public static void main(String[] args) {
         ListNode<Integer> L;
-        L = new ListNode<>(11,new ListNode<>(3,
-                new ListNode<>(5,new ListNode<>(7,new ListNode<>(2,null)))));
+        L = new ListNode<>(11, new ListNode<>(3,
+                new ListNode<>(5, new ListNode<>(7, new ListNode<>(2, null)))));
 
-        L=reverseSublist(L,1,2);
+        L = reverseSublist(L, 2, 4);
         System.out.println(L.toString());
 
     }

@@ -10,7 +10,21 @@ public class SpreadSheetColumnStringToInt {
         return val;
     }
 
+    public static String ssDecodeIdToCol( int col) {
+        StringBuilder stringBuilder = new StringBuilder();
+        while (col>0){
+            int mod = (col-1) % 26;
+            stringBuilder.append((char) (mod + 'A'));
+            col=(col-mod-1)/26;
+
+        }
+
+        return stringBuilder.reverse().toString();
+    }
+
     public static void main(String[] args) {
-        System.out.println(ssDecodeColID("ZZ"));
+
+        System.out.println(ssDecodeColID("ZMP"));
+        System.out.println(ssDecodeIdToCol(17930));
     }
 }

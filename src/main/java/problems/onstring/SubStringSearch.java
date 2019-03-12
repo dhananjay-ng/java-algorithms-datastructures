@@ -1,5 +1,7 @@
 package problems.onstring;
 
+import algorithms.string.KMP;
+
 public class SubStringSearch {
     public static int naiveSS(String t, String s){
         if (s.length()==0) return 0;
@@ -26,5 +28,8 @@ public class SubStringSearch {
 
     public static void main(String[] args) {
         System.out.println(naiveSS("Hi this is me","is"));
+
+        //Using KMP
+        System.out.println(KMP.KMP("Hi this is me","is"));
     }
 }

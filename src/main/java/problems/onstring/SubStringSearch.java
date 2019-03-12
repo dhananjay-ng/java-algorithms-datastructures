@@ -1,5 +1,6 @@
 package problems.onstring;
 
+import algorithms.string.BoyerMoore;
 import algorithms.string.KMP;
 
 public class SubStringSearch {
@@ -30,6 +31,9 @@ public class SubStringSearch {
         System.out.println(naiveSS("Hi this is me","is"));
 
         //Using KMP
-        System.out.println(KMP.KMP("Hi this is me","is"));
+        System.out.println(KMP.search("Hi this is me","is"));
+
+        //Boyer Moore
+        System.out.println(BoyerMoore.search("Hi this is me","is"));
     }
 }

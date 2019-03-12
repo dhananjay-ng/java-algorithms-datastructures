@@ -22,7 +22,7 @@ public class KMP {
         return suffixPrefixArray;
     }
 
-    public static int KMP(String text, String pattern) {
+    public static int search(String text, String pattern) {
         int[] suffixPrefixArray = computeSufixPrefixArray(pattern);
         int i = 0, j = 0;
         while (i < text.length() && j < pattern.length()) {
@@ -42,7 +42,7 @@ public class KMP {
     }
 
     public static void main(String args[]) {
-        System.out.println(KMP("BCBAABABAC", "ABABAC"));
+        System.out.println(search("BCBAABABAC", "ABABAC"));
 
     }
 }

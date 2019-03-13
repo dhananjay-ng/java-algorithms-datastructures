@@ -9,24 +9,25 @@ public class ReverseSublist {
                                                    int finish) {
         ListNode<Integer> dummyHead = new ListNode<>(0, L);
         ListNode<Integer> subListStart = dummyHead;
-        if (L == null || start == finish) return L;
-        int i=1;
-        while (i++ < start) {
+        for (int i = 1; i < start; i++)
             subListStart = subListStart.next;
-        }
 
-        ListNode<Integer> prev = subListStart.next;
+        // this will node will get shifted from start position to finish
+        // and also act as itrator for list
+        ListNode<Integer> listIterator = subListStart.next;
         for (int k = start; k < finish; k++) {
-            ListNode<Integer> tempNextNode = prev.next;
-            prev.next = tempNextNode.next;
-            tempNextNode.next = subListStart.next;
-            subListStart.next = tempNextNode;
+            //this code puts next node of iterator at the start of sublist
+            //making sublist reverse.
+            ListNode<Integer> detachedNode = listIterator.next;
+            listIterator.next = detachedNode.next;
+            detachedNode.next = subListStart.next;
+            subListStart.next = detachedNode;
         }
         return dummyHead.next;
     }
 
     public static ListNode<Integer> reverseSublist2(ListNode<Integer> L, int start,
-                                                   int finish) {
+                                                    int finish) {
         ListNode<Integer> startNode;
         ListNode<Integer> endNode;
         ListNode<Integer> prev;

@@ -10,8 +10,8 @@ public class DoListOverlap {
 
         // code for non cyclic list overlap finding
         if (l1CycleStart == null && l0CycleStart == null) {
-            return DoTerminatedListsOverlap.overlappingNoCycleListsSolutionByLength(l0,l1);
-           }
+            return DoTerminatedListsOverlap.overlappingNoCycleLists(l0, l1);
+        }
 
         //if one has cycle and they overlap then other inherits cycle of first.
         //so if any of them does not has cycle and other has then they don't overlap
@@ -19,15 +19,46 @@ public class DoListOverlap {
             return null;
         }
 
-        if (l1CycleStart == l0CycleStart) {
-            return l1CycleStart;
-        }
-        l0 = l0CycleStart.next;
-        while (l0 != l0CycleStart) {
-            if (l1CycleStart == l0) return l1CycleStart;
-            l0 = l0.next;
+
+        ListNode<Integer> temp = l1CycleStart;
+        do{
+            temp = temp.next;
+        }while (temp!=l0CycleStart && temp!=l1CycleStart);
+        //This means they do have common cycle
+        if (temp == l0CycleStart) {
+            //check if they meet before cycle starts
+            int l0Tol0CycleStart = distance(l0, l0CycleStart);
+            int l1Tol1CycleStart = distance(l1, l1CycleStart);
+
+            int moveBiggerListBy = Math.abs(l1Tol1CycleStart - l0Tol0CycleStart);
+            if (l0Tol0CycleStart > l1Tol1CycleStart) {
+                l0 = advanceListByK(moveBiggerListBy, l0);
+            } else {
+                l1 = advanceListByK(moveBiggerListBy, l1);
+            }
+            while (l0!=l1 && l0!=l0CycleStart && l1!=l1CycleStart){
+                l0 = l0.next;
+                l1 = l1.next;
+            }
+            return l0 == l1 ? l0 : l1CycleStart;
         }
         return null;
+    }
+
+    private static ListNode<Integer> advanceListByK(int moveBiggerListBy, ListNode<Integer> node) {
+        while (moveBiggerListBy-- > 0) {
+            node = node.next;
+        }
+        return node;
+    }
+
+    public static int distance(ListNode<Integer> src, ListNode<Integer> dest) {
+        int dist = 0;
+        while (src != dest) {
+            src = src.next;
+            dist++;
+        }
+        return dist;
     }
 
     private static ListNode<Integer> getCycleStart(ListNode<Integer> node) {

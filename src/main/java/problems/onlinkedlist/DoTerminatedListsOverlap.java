@@ -13,7 +13,7 @@ public class DoTerminatedListsOverlap {
     public static ListNode<Integer>
     overlappingNoCycleListsSolutionByLength(ListNode<Integer> l0, ListNode<Integer> l1) {
         if (l0 == null || l1 == null) return null;
-        int l0links = 0;
+        int l0links = 0; //l0links is nothing but length of lo
         int l1links = 0;
         ListNode<Integer> l0Head = l0, l1Head = l1;
         while (l0 != null) {
@@ -24,13 +24,13 @@ public class DoTerminatedListsOverlap {
             l1links++;
             l1 = l1.next;
         }
-        if (l1links > l0links) {
+        if (l1links > l0links) {  //if length of l1 is bigger advance it by diff positions
             int diff = l1links - l0links;
             while (diff-- > 0) {
                 l1Head = l1Head.next;
             }
         }
-        if (l0links > l1links) {
+        if (l0links > l1links) {   //if length of l0 is bigger advance it by diff positions
             int diff = l0links - l1links;
             while (diff-- > 0) {
                 l0Head = l0Head.next;
@@ -38,7 +38,7 @@ public class DoTerminatedListsOverlap {
         }
 
         while (l1Head != null && l0Head != null) {
-            if (l1Head == l0Head) return l0Head;
+            if (l1Head == l0Head) return l0Head;  //if common node is found this is overlapping point.
             l0Head = l0Head.next;
             l1Head = l1Head.next;
         }

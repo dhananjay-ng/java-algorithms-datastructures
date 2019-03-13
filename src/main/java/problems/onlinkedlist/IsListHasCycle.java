@@ -5,6 +5,28 @@ import java.util.HashMap;
 
 public class IsListHasCycle {
 
+    // Observation: 3rd solution
+    // When first and second meet with fast and slow pointer
+    // the if we traverse from head and from that meeting point
+    // then this meet at the start.
+    public static ListNode<Integer> hasCycleShortSolution(ListNode<Integer> head) {
+        ListNode<Integer> first = head, second = head;
+
+        while (second != null && second.next != null && second.next.next!=null) {
+            first = first.next;
+            second = second.next.next;
+            if (first == second) {
+                first = head;
+                while (first!=second){
+                    first = first.next;
+                    second=second.next;
+                }
+                return first;
+            }
+        }
+        return null;
+    }
+
     //constant space, linear time O(n)
     public static ListNode<Integer> hasCycleWithoutExtraSpace(ListNode<Integer> head) {
         ListNode<Integer> first = head, second = head;

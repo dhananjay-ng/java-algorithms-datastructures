@@ -6,33 +6,28 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Main {
-    static class Reader
-    {
+    static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
         private byte[] buffer;
         private int bufferPointer, bytesRead;
 
-        public Reader()
-        {
+        public Reader() {
             din = new DataInputStream(System.in);
             buffer = new byte[BUFFER_SIZE];
             bufferPointer = bytesRead = 0;
         }
 
-        public Reader(String file_name) throws IOException
-        {
+        public Reader(String file_name) throws IOException {
             din = new DataInputStream(new FileInputStream(file_name));
             buffer = new byte[BUFFER_SIZE];
             bufferPointer = bytesRead = 0;
         }
 
-        public String readLine() throws IOException
-        {
+        public String readLine() throws IOException {
             byte[] buf = new byte[64]; // line length
             int cnt = 0, c;
-            while ((c = read()) != -1)
-            {
+            while ((c = read()) != -1) {
                 if (c == '\n')
                     break;
                 buf[cnt++] = (byte) c;
@@ -40,8 +35,7 @@ public class Main {
             return new String(buf, 0, cnt);
         }
 
-        public int nextInt()
-        {
+        public int nextInt() {
             int ret = 0;
             byte c = read();
             while (c <= ' ')
@@ -49,18 +43,16 @@ public class Main {
             boolean neg = (c == '-');
             if (neg)
                 c = read();
-            do
-            {
+            do {
                 ret = ret * 10 + c - '0';
-            }  while ((c = read()) >= '0' && c <= '9');
+            } while ((c = read()) >= '0' && c <= '9');
 
             if (neg)
                 return -ret;
             return ret;
         }
 
-        public long nextLong()
-        {
+        public long nextLong() {
             long ret = 0;
             byte c = read();
             while (c <= ' ')
@@ -77,8 +69,7 @@ public class Main {
             return ret;
         }
 
-        public double nextDouble()
-        {
+        public double nextDouble() {
             double ret = 0, div = 1;
             byte c = read();
             while (c <= ' ')
@@ -92,10 +83,8 @@ public class Main {
             }
             while ((c = read()) >= '0' && c <= '9');
 
-            if (c == '.')
-            {
-                while ((c = read()) >= '0' && c <= '9')
-                {
+            if (c == '.') {
+                while ((c = read()) >= '0' && c <= '9') {
                     ret += (c - '0') / (div *= 10);
                 }
             }
@@ -105,15 +94,13 @@ public class Main {
             return ret;
         }
 
-        private void fillBuffer() throws IOException
-        {
+        private void fillBuffer() throws IOException {
             bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
             if (bytesRead == -1)
                 buffer[0] = -1;
         }
 
-        private byte read()
-        {
+        private byte read() {
             if (bufferPointer == bytesRead) {
                 try {
                     fillBuffer();
@@ -124,50 +111,56 @@ public class Main {
             return buffer[bufferPointer++];
         }
 
-        public void close() throws IOException
-        {
+        public void close() throws IOException {
             if (din == null)
                 return;
             din.close();
         }
+
         public String readString() {
             final StringBuilder stringBuilder = new StringBuilder();
             byte c = read();
             while (isSpaceChar(c))
                 c = read();
             do {
-                stringBuilder.append((char)c);
+                stringBuilder.append((char) c);
                 c = read();
             } while (!isSpaceChar(c));
             return stringBuilder.toString();
         }
-        public void readIntArray(int a[],int n){
-            for(int i=0;i<n;i++)
-                a[i]=nextInt();
+
+        public void readIntArray(int a[], int n) {
+            for (int i = 0; i < n; i++)
+                a[i] = nextInt();
 
         }
-        public void readLongArray(long a[],int n){
-            for(int i=0;i<n;i++)
-                a[i]=nextLong();
+
+        public void readLongArray(long a[], int n) {
+            for (int i = 0; i < n; i++)
+                a[i] = nextLong();
         }
-        public void readStringArray(String a[],int n){
-            for(int i=0;i<n;i++)
-                a[i]=readString();
+
+        public void readStringArray(String a[], int n) {
+            for (int i = 0; i < n; i++)
+                a[i] = readString();
         }
 
         public boolean isSpaceChar(byte c) {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
     }
+
     public static void main(String[] args) {
         // write your code here
 
         Reader in = new Reader();
         StringBuilder result = new StringBuilder();
+        int k = 1, start = 5;
+        while (k++ < 2) {
+            System.out.println(k);
+        }
 
 
-
-        System.out.println("Закрыто".equals("Закрыто"));
     }
        /* int n=ir.readInt();`
         StringBuilder result=new StringBuilder();

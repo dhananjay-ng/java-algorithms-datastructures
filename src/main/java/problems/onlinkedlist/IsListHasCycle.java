@@ -2,6 +2,7 @@ package problems.onlinkedlist;
 
 import datastructures.linkedlist.ListNode;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class IsListHasCycle {
 
@@ -70,18 +71,18 @@ public class IsListHasCycle {
             } else {
                 return null;
             }
-            HashMap<ListNode<Integer>, ListNode<Integer>> visited = new HashMap();
+            HashSet<ListNode<Integer>> visited = new HashSet<>();
 
             while (second != null && second.next != null && second != first) {
                 first = first.next;
                 second = second.next.next;
             }
             if (second != null && first == second) {
-                while (!visited.containsKey(first)) {
-                    visited.put(first, first);
+                while (!visited.contains(first)) {
+                    visited.add(first);
                     first = first.next;
                 }
-                while (!visited.containsKey(head)) {
+                while (!visited.contains(head)) {
                     head = head.next;
                 }
                 return head;

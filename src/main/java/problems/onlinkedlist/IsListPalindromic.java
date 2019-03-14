@@ -1,8 +1,6 @@
 package problems.onlinkedlist;
 
 import datastructures.linkedlist.ListNode;
-import edu.princeton.cs.algs4.In;
-
 public class IsListPalindromic {
 
     //To-do: imporove

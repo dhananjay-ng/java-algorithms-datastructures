@@ -1,4 +1,4 @@
-package problems.onstring.gfg.easy;
+package problems.onstring.gfg;
 
 import testingsystem.misccode.Reader;
 

@@ -1,4 +1,4 @@
-package problems.onarray.gfg.easy;
+package problems.onarray.gfg;
 
 import testingsystem.misccode.Reader;
 

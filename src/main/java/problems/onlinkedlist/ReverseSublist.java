@@ -1,6 +1,7 @@
 package problems.onlinkedlist;
 
 import datastructures.linkedlist.ListNode;
+import edu.princeton.cs.algs4.In;
 
 
 public class ReverseSublist {
@@ -24,6 +25,18 @@ public class ReverseSublist {
             subListStart.next = detachedNode;
         }
         return dummyHead.next;
+    }
+
+    public static void reverseFromNode(ListNode<Integer> node) {
+        if (node == null || node.next == null) return;
+        ListNode<Integer> listIter = node.next;
+        while (listIter != null && listIter.next!=null) {
+            ListNode<Integer> detachNode = listIter.next;
+            listIter.next = detachNode.next;
+            detachNode.next = node.next;
+            node.next = detachNode;
+        }
+        return;
     }
 
     public static ListNode<Integer> reverseSublist2(ListNode<Integer> L, int start,

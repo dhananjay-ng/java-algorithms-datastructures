@@ -1,10 +1,10 @@
 package datastructures.priorityqueue;
 
-public class UnorderedMaxPQ<Key extends Comparable<Key>> {
+public class UnorderedMinPQ<Key extends Comparable<Key>> {
     private Key[] pq;
     private int N;      //number of elements in priority queue
 
-    public UnorderedMaxPQ(int capacity) {
+    public UnorderedMinPQ(int capacity) {
         pq = (Key[]) new Comparable[capacity];
     }
 
@@ -16,12 +16,12 @@ public class UnorderedMaxPQ<Key extends Comparable<Key>> {
         pq[N++] = x;
     }
 
-    public Key delMax() {
-        int max = 0;
+    public Key delMin() {
+        int min = 0;
         for (int i = 1; i < N; i++) {
-            if (less(max, i)) max = i;
+            if (less(i, min)) min = i;
         }
-        exch(max, N - 1);
+        exch(min, N - 1);
         return pq[--N];
     }
 
@@ -37,16 +37,16 @@ public class UnorderedMaxPQ<Key extends Comparable<Key>> {
     }
 
     public static void main(String[] args) {
-        UnorderedMaxPQ<Integer> umq = new UnorderedMaxPQ<>(4);
+        UnorderedMinPQ<Integer> umq = new UnorderedMinPQ<>(4);
         umq.insert(4);
         umq.insert(2);
         umq.insert(9);
         umq.insert(8);
 
-        System.out.println(umq.delMax());
-        System.out.println(umq.delMax());
-        System.out.println(umq.delMax());
-        System.out.println(umq.delMax());
+        System.out.println(umq.delMin());
+        System.out.println(umq.delMin());
+        System.out.println(umq.delMin());
+        System.out.println(umq.delMin());
 
     }
 }

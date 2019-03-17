@@ -6,6 +6,7 @@ public class UnorderedMaxPQ<Key extends Comparable<Key>> {
 
     public UnorderedMaxPQ(int capacity) {
         pq = (Key[]) new Comparable[capacity];
+        N = 0;
     }
 
     public boolean isEmpty() {

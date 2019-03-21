@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class NextGreaterElement {
+    //O(m+n) //O(m+n)
     public static int[] nextGreaterElement(int[] n1, int[] n2) {
         Map<Integer,Integer> look = new HashMap<>();
         Deque<Integer> stack = new LinkedList<>();
@@ -13,11 +14,9 @@ public class NextGreaterElement {
             }
             stack.addFirst(n2[i]);
         }
-        while (!stack.isEmpty()) {
-            look.put(stack.removeFirst(), -1);
-        }
+
         for (int i=0;i<n1.length;i++) {
-            n1[i] = look.get(n1[i]);
+            n1[i] = look.getOrDefault(n1[i], -1);
         }
         return n1;
     }

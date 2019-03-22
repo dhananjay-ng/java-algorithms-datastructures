@@ -10,35 +10,30 @@ import java.util.List;
 public class TreeLevelTraversal {
     public static List<List<Integer>>
     binaryTreeDepthOrder(BinaryTreeNode<Integer> tree) {
-        Deque<BinaryTreeNode<Integer>> l1 = new LinkedList<>();
-        Deque<BinaryTreeNode<Integer>> l2 = new LinkedList<>();
-        List<List<Integer>> dfs = new ArrayList<>();
-        if (tree != null) l1.addLast(tree);
-        while (!l1.isEmpty() || !l2.isEmpty()) {
+        Deque<BinaryTreeNode<Integer>> currentLevel = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        if (tree != null) currentLevel.addLast(tree);
+        while (!currentLevel.isEmpty()) {
+            Deque<BinaryTreeNode<Integer>> nextLevel = new LinkedList<>();
             List<Integer> level = new ArrayList();
-            if (!l1.isEmpty()) {
-                processLevel(l1, l2, level);
-            } else {
-                processLevel(l2, l1, level);
+            while (!currentLevel.isEmpty()) {
+                BinaryTreeNode<Integer> node = currentLevel.removeFirst();
+                if (node!= null) {
+                    level.add(node.data);
+                    nextLevel.addLast(node.left);
+                    nextLevel.addLast(node.right);
+                }
             }
+            currentLevel = nextLevel;
             if(level.size()>0){
-                dfs.add(level);
+                res.add(level);
             }
         }
-        return dfs;
+        return res;
     }
 
-    private static void processLevel(Deque<BinaryTreeNode<Integer>> l1, Deque<BinaryTreeNode<Integer>> l2, List<Integer> level) {
-        while (!l1.isEmpty()) {
-            if (l1.peek() != null) {
-                level.add(l1.peek().data);
-                BinaryTreeNode<Integer> node = l1.removeFirst();
-                l2.addLast(node.left);
-                l2.addLast(node.right);
-            } else {
-                l1.removeFirst();
-            }
-
-        }
+    public static void main(String[] args) {
+        //to-do: write test client
     }
+
 }

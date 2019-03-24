@@ -18,5 +18,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="wiki" level="project" />
+    <orderEntry type="library" name="core" level="project" />
   </component>
 </module>

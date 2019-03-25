@@ -1,4 +1,4 @@
-Collection of useful Alogrithms and Data Structures.
+Collection of useful Algorithms and Data Structures.
 
 A* algorithm
 

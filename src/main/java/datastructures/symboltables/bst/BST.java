@@ -136,6 +136,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
+
     public void deleteMax() {
         if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
         root = deleteMax(root);
@@ -147,6 +148,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
+
     public void delete(Key key) {
         if (key == null) throw new IllegalArgumentException("calls delete() with a null key");
         root = delete(root, key);
@@ -156,11 +158,11 @@ public class BST<Key extends Comparable<Key>, Value> {
         if (x == null) return null;
 
         int cmp = key.compareTo(x.key);
-        if      (cmp < 0) x.left  = delete(x.left,  key);
+        if (cmp < 0) x.left = delete(x.left, key);
         else if (cmp > 0) x.right = delete(x.right, key);
         else {
             if (x.right == null) return x.left;
-            if (x.left  == null) return x.right;
+            if (x.left == null) return x.right;
             Node t = x;
             x = min(t.right);
             x.right = deleteMin(t.right);
@@ -168,6 +170,30 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
         x.size = size(x.left) + size(x.right) + 1;
         return x;
+    }
+
+    private void preOrder(Node root) {
+        if (root != null) {
+            System.out.println(root.val);
+            preOrder(root.left);
+            preOrder(root.right);
+        }
+    }
+
+    private void inOrder(Node root) {
+        if (root != null) {
+            preOrder(root.left);
+            System.out.println(root.val);
+            preOrder(root.right);
+        }
+    }
+
+    private void postOrder(Node root) {
+        if (root != null) {
+            preOrder(root.left);
+            preOrder(root.right);
+            System.out.println(root.val);
+        }
     }
 
 

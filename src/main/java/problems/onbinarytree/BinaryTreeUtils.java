@@ -232,4 +232,59 @@ public class BinaryTreeUtils {
         throw new RuntimeException("Unsupported binary tree type: " +
                 tree.getClass().getName());
     }
+
+    public static BinaryTreeNode<Integer> getSampleTree(int levels) {
+        BinaryTreeNode<Integer> sample = new BinaryTreeNode<>();
+        BinaryTreeNode<Integer> root = new BinaryTreeNode<>();
+
+        //level 0
+        root.data = 1;
+
+        if (levels == 0) return root;
+        //level 1
+        root.left = new BinaryTreeNode<>(2);
+        root.right = new BinaryTreeNode<>(3);
+
+        if (levels == 1) return root;
+
+        //level 2
+        root.left.left = new BinaryTreeNode<>(4);
+        root.left.right = new BinaryTreeNode<>(5);
+        root.right.left = new BinaryTreeNode<>(6);
+        root.right.right = new BinaryTreeNode<>(7);
+
+        if (levels == 2) return root;
+
+        //level 2
+        root.left.left.left = new BinaryTreeNode<>(8);
+        root.left.left.right = new BinaryTreeNode<>(9);
+        root.left.right.left = new BinaryTreeNode<>(10);
+        root.left.right.right = new BinaryTreeNode<>(11);
+        root.right.left.left = new BinaryTreeNode<>(12);
+        root.right.left.right = new BinaryTreeNode<>(13);
+        root.right.right.left = new BinaryTreeNode<>(14);
+        root.right.right.right = new BinaryTreeNode<>(15);
+        if (levels == 3) return root;
+
+        //level 3
+        root.left.left.left.left = new BinaryTreeNode<>(16);
+        root.left.left.left.right = new BinaryTreeNode<>(17);
+        root.left.left.right.left = new BinaryTreeNode<>(18);
+        root.left.left.right.right = new BinaryTreeNode<>(19);
+        root.left.right.left.left = new BinaryTreeNode<>(20);
+        root.left.right.left.right = new BinaryTreeNode<>(21);
+        root.left.right.right.left = new BinaryTreeNode<>(22);
+        root.left.right.right.right = new BinaryTreeNode<>(23);
+        root.right.left.left.left = new BinaryTreeNode<>(24);
+        root.right.left.left.right = new BinaryTreeNode<>(25);
+        root.right.left.right.left = new BinaryTreeNode<>(26);
+        root.right.left.right.right = new BinaryTreeNode<>(27);
+        root.right.right.left.left = new BinaryTreeNode<>(28);
+        root.right.right.left.right = new BinaryTreeNode<>(29);
+        root.right.right.right.left = new BinaryTreeNode<>(30);
+        root.right.right.right.right = new BinaryTreeNode<>(31);
+
+
+        return root;
+    }
 }

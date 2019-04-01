@@ -2,8 +2,10 @@ package problems.onbinarytree;
 
 import edu.princeton.cs.algs4.In;
 
+import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.List;
 
 public class TreeTraversal {
     static void preOrder(BinaryTreeNode<Integer> root) {
@@ -71,6 +73,39 @@ public class TreeTraversal {
         }
     }
 
+    static List<Integer> nonRecursiveinOrderOneStack(BinaryTreeNode<Integer> root) {
+        Deque<BinaryTreeNode<Integer>> tk = new LinkedList<>();
+        List<Integer> res = new ArrayList<>();
+        tk.addFirst(root);
+        if(root == null) return res;
+        BinaryTreeNode prev = null;
+        while(!tk.isEmpty()) {
+            BinaryTreeNode  curr = tk.peek();
+            if(prev == null || prev.left == curr || prev.right == curr ) {
+                if(curr.left !=null) {
+                    tk.addFirst(curr.left);
+                } else if(curr.right != null) {
+                    tk.addFirst(curr.right);
+                } else {
+                    res.add(tk.removeFirst().data);
+                }
+
+            } else if(curr.left == prev) {
+                if(curr.right != null) {
+                    tk.addFirst(curr.right);
+                } else {
+                    res.add(tk.removeFirst().data);
+                }
+
+            } else if(curr.right == prev) {
+                res.add(tk.removeFirst().data);
+            }
+
+            prev = curr;
+        }
+        return res;
+    }
+
     static void levelOrder(BinaryTreeNode<Integer> root) {
         Deque<BinaryTreeNode<Integer>> queue = new LinkedList<>();
         queue.addFirst(root);
@@ -92,6 +127,11 @@ public class TreeTraversal {
         System.out.print("\nin   -> ");nonRecursiveinOrder(BinaryTreeUtils.getSampleTree(4));
         System.out.print("\npost -> ");postOrder(BinaryTreeUtils.getSampleTree(4));
         System.out.print("\npost -> ");nonRecursivepostOrder(BinaryTreeUtils.getSampleTree(4));
+        System.out.print("\nPostOrder -> ");nonRecursivepostOrder(BinaryTreeUtils.getSampleTree(4));
+        System.out.print("\nPostOrder -> ");
+        nonRecursiveinOrderOneStack(BinaryTreeUtils.getSampleTree(4)).stream().forEach(integer -> {
+            System.out.print(integer+" ");
+        });
         System.out.print("\nlevelOrder -> ");levelOrder(BinaryTreeUtils.getSampleTree(4));
     }
 }

@@ -1,7 +1,5 @@
 package problems.onbinarytree;
 
-import edu.princeton.cs.algs4.In;
-
 public class MaxDepth {
     public static int maxDepth(BinaryTreeNode<Integer> root) {
         if(root == null) {
@@ -16,6 +14,7 @@ public class MaxDepth {
 
     public static void main(String[] args) {
         System.out.println(maxDepth(BinaryTreeUtils.getSampleTree(3)));
+
     }
     
 

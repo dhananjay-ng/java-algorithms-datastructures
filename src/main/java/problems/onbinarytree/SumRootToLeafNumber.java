@@ -14,8 +14,8 @@ public class SumRootToLeafNumber {
      * Example:
      * <p>
      * Input: [1,2,3]
-     * 1
-     * / \
+     *   1
+     *  / \
      * 2   3
      * Output: 25
      * Explanation:
@@ -25,10 +25,10 @@ public class SumRootToLeafNumber {
      * Example 2:
      * <p>
      * Input: [4,9,0,5,1]
-     * 4
-     * / \
-     * 9   0
-     * / \
+     *     4
+     *    / \
+     *   9   0
+     *  / \
      * 5   1
      * Output: 1026
      * Explanation:

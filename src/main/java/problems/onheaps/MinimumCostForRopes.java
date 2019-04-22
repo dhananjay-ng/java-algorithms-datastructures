@@ -1,4 +1,4 @@
-package problems.onpriorityqueue;
+package problems.onheaps;
 
 public class MinimumCostForRopes {
 }

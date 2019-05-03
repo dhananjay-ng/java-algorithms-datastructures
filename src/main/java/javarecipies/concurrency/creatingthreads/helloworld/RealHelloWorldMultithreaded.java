@@ -1,6 +1,7 @@
-package javarecipies.concurrency.helloworld;
+package javarecipies.concurrency.creatingthreads.helloworld;
 
-public class RealHelloWorldMultithreadedCallRun
+
+public class RealHelloWorldMultithreaded
 {
     public static class Greeter extends Thread
     {
@@ -24,7 +25,7 @@ public class RealHelloWorldMultithreadedCallRun
 
         for (String country : countries)
         {
-            new Greeter(country).run(); // Calls run() directly instead of start() (don't do this!)
+            new Greeter(country).start();
         }
     }
 }

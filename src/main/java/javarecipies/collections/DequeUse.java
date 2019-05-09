@@ -1,4 +1,3 @@
-package javarecipies.collections;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -12,6 +11,7 @@ public class DequeUse {
         deque.addFirst(9);
         deque.addFirst(8);
         deque.addFirst(7);
+        deque.addFirst(111);
         System.out.println(deque.peek());
         System.out.println(deque.removeFirst());
         System.out.println(deque.removeFirst());

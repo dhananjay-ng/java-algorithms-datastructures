@@ -15,7 +15,58 @@ public class BST<Key extends Comparable<Key>> {
         }
         //int q = s.nextInt();
         //bst.preorder(bst.get(q));
-        System.out.println(bst.height());
+        //System.out.println(bst.height());
+        //find intersection of path
+        int x = s.nextInt();
+        int y = s.nextInt();
+        System.out.println(bst.maxOnPathBetweenTwoNodes(x,y));
+
+    }
+
+    public Key maxOnPathBetweenTwoNodes(Key x, Key y) {
+        Node iter = root;
+        while (iter!=null) {
+            if (x.compareTo(iter.key) < 0 && y.compareTo(iter.key) < 0){
+                iter = iter.left;
+            } else if (x.compareTo(iter.key) > 0 && y.compareTo(iter.key) > 0) {
+                iter = iter.right;
+            } else {
+                break;
+            }
+        }
+        Node pathRoot = iter;
+        if (pathRoot == null){
+            pathRoot = root;
+        }
+        Key max = pathRoot.key;
+        iter = pathRoot;
+        while (iter!=null) {
+            if (x.compareTo(iter.key) > 0){
+                max = max.compareTo(iter.key) > 0 ? max:iter.key;
+                iter = iter.right;
+            } else if (x.compareTo(iter.key) < 0){
+                max = max.compareTo(iter.key) > 0 ? max:iter.key;
+                iter= iter.left;
+            } else {
+                max = max.compareTo(iter.key) > 0 ? max:iter.key;
+                break;
+            }
+        }
+        iter = pathRoot;
+        while (iter!=null) {
+            if (y.compareTo(iter.key) > 0){
+                max = max.compareTo(iter.key) > 0 ? max:iter.key;
+                iter = iter.right;
+            } else if (y.compareTo(iter.key) < 0){
+                max = max.compareTo(iter.key) > 0 ? max:iter.key;
+                iter= iter.left;
+            } else {
+                max = max.compareTo(iter.key) > 0 ? max:iter.key;
+                break;
+            }
+        }
+        return max;
+
     }
 
     public Node add(Key key) {

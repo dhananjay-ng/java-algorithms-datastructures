@@ -1,6 +1,10 @@
 package websites.he.tree;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 public class BST<Key extends Comparable<Key>> {
@@ -8,20 +12,42 @@ public class BST<Key extends Comparable<Key>> {
 
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-        int n = s.nextInt();                 // Reading input from STDINbs
-        BST<Integer> bst = new BST<>();
-        for (int i = 0; i < n; i++) {
-            bst.add(s.nextInt());
+        int t = s.nextInt();                 // Reading input from STDINbs
+        while (t-- > 0) {
+            int n = s.nextInt();                 // Reading input from STDINbs
+            BST<Integer> bst = new BST<>();
+            for (int i = 0; i < n; i++) {
+                bst.add(s.nextInt());
+            }
+            System.out.println(bst.findLeftExteriorNodes());
+
         }
-        //int q = s.nextInt();
-        //bst.preorder(bst.get(q));
-        //System.out.println(bst.height());
-        //find intersection of path
-        int x = s.nextInt();
-        int y = s.nextInt();
-        System.out.println(bst.maxOnPathBetweenTwoNodes(x,y));
 
     }
+
+    public int findLeftExteriorNodes() {
+        Deque<Node> currentLevel = new LinkedList<>();
+        Deque<Node> nextLevel = new LinkedList<>();
+        currentLevel.addFirst(root);
+        int kills = 0;
+        boolean isFirst = true;
+        while (!currentLevel.isEmpty()){
+            Node ele = currentLevel.removeFirst();
+            if (ele.left!=null) nextLevel.addFirst(ele.left);
+            if (ele.right!=null) nextLevel.addFirst(ele.right);
+            if (isFirst) kills++;
+
+            isFirst = false;
+
+            if (currentLevel.isEmpty() &&  !nextLevel.isEmpty()) {
+                currentLevel = nextLevel;
+                nextLevel = new LinkedList<>();
+                isFirst = true;
+            }
+        }
+        return kills;
+    }
+
 
     public Key maxOnPathBetweenTwoNodes(Key x, Key y) {
         Node iter = root;

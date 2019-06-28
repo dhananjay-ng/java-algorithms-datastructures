@@ -51,7 +51,6 @@ public class MergeSortProblem {
         sort(dest, src, lo, mid);
         sort(dest, src, mid+1, hi);
         merge(src, dest, lo,mid,hi);
-        System.arraycopy(dest, lo, src, lo,(hi-lo+1));
 
     }
 

@@ -1,4 +1,4 @@
-package websites.he;
+package websites.he.mergesort;
 import java.util.*;
 import java.math.*;
 import java.io.*;

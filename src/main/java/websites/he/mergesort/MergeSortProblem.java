@@ -1,4 +1,4 @@
-package websites.he;
+package websites.he.mergesort;
 
 import java.io.FileInputStream;
 import java.util.Scanner;

@@ -1,11 +1,9 @@
-package websites.he.tree;
+package problems.onbinarytree.onbst;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class BST<Key extends Comparable<Key>> {
-    private Node root;
-
+public class HeightOfBst {
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();                 // Reading input from STDINbs
@@ -17,6 +15,11 @@ public class BST<Key extends Comparable<Key>> {
         //bst.preorder(bst.get(q));
         System.out.println(bst.height());
     }
+}
+
+
+class BST<Key extends Comparable<Key>> {
+    private Node root;
 
     public Node add(Key key) {
         this.root = add(key, this.root);
@@ -42,7 +45,6 @@ public class BST<Key extends Comparable<Key>> {
 
         }
     }
-
 
     public Node get(Key key) {
         return get(key, root);
@@ -82,4 +84,3 @@ public class BST<Key extends Comparable<Key>> {
         }
     }
 }
-

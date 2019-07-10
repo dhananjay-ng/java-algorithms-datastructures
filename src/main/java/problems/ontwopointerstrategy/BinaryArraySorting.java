@@ -1,4 +1,4 @@
-package problems.onsorting;
+package problems.ontwopointerstrategy;
 
 public class BinaryArraySorting {
     /**

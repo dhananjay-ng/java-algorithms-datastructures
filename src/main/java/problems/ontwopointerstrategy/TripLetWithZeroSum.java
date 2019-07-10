@@ -1,4 +1,4 @@
-package problems.onsorting;
+package problems.ontwopointerstrategy;
 
 import java.util.Arrays;
 

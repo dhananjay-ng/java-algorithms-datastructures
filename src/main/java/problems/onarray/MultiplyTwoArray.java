@@ -7,6 +7,21 @@ import java.util.List;
 
 //To DO : Optimize it for space
 public class MultiplyTwoArray {
+    /**
+     * Certain applications require arbitrary precision arithmetic. One way to achieve
+     * this is to use arrays to represent integers, e.g., with one digit per array entry,
+     * with the most significant digit appearing first, and a negative leading digit denot¬
+     * ing a negative integer. For example, (1,9,3, 7, 0,7, 7, 2,1) represents 193707721 and
+     * (-7, 6, 1, 8, 3, 8, 2, 5, 7, 2, 8, 7) represents -761838257287.
+     * Write a program that takes two arrays representing integers, and re¬
+     * turns an integer representing their product. For example, since
+     * 193707721 X -761838257287
+     * =
+     * -147573952589676412927, if the inputs are
+     * 66
+     * (1,9, 3, 7, 0,7, 7, 2,1} and (-7,6, 1,8, 3, 8, 2, 5, 7, 2, 8, 7), your function should return
+     * (-1, 4, 7, 5, 7, 3, 9, 5, 2, 5, 8, 9, 6, 7, 6, 4, 1, 2, 9, 2, 7).
+     */
     public static List<Integer> multiply(List<Integer> num1, List<Integer> num2) {
         final int sign = (num1.get(0) < 0 ? -1 : 1 ) * (num2.get(0) < 0 ? -1 : 1);
         num1.set(0,Math.abs(num1.get(0)));

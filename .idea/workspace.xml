@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="#binary tree mirror">
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="#access">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BPMObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatModelInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/ControllerInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJViewServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartModelInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/jsp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/jsp/djview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/jsp/index.html" beforeDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +44,7 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="113" />
+          <entry key="project.closed" value="115" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="2" />
@@ -50,27 +71,27 @@
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="118" />
+          <entry key="project.opened" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="50636" />
+          <entry key="java" value="50847" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="5340" />
+          <entry key="txt" value="5431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="50636" />
+          <entry key="JAVA" value="50847" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="5350" />
+          <entry key="PLAIN_TEXT" value="5441" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -79,7 +100,7 @@
           <entry key="CLASS" value="27" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="457" />
+          <entry key="JAVA" value="464" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="10" />
@@ -93,7 +114,7 @@
           <entry key="class" value="27" />
           <entry key="gif" value="1" />
           <entry key="iml" value="4" />
-          <entry key="java" value="458" />
+          <entry key="java" value="465" />
           <entry key="md" value="4" />
           <entry key="output" value="1" />
           <entry key="png" value="2" />
@@ -109,51 +130,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/TestPrototypePattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/EnumSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/LazySingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/StaticBlockSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/BillPughSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,11 +148,63 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onhashtable/TopKWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="680">
               <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6120">
+              <caret line="360" selection-start-line="360" selection-end-line="360" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/IsArraySorted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2890">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -250,11 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/MergeTwoSortedArrayToOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/MergeTwoSortedLists.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/RemoveDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/CalendarRendering.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/IntervalAdd.java" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/websites/he/MergeSortProblem.java" />
@@ -301,6 +324,11 @@
         <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/suffixprefix/Trie.java" />
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/OnePager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/accessspecifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java" />
       </list>
     </option>
   </component>
@@ -312,9 +340,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="width" value="1937" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -369,6 +396,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,14 +413,25 @@
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="onarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -446,7 +486,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OnePager">
+  <component name="RunManager" selected="Application.Accessspecifier">
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -472,16 +512,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySumPreviousElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onrecursion.ArraySumPreviousElements" />
+    <configuration name="Accessspecifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.Accessspecifier" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="websites.he.tree.BST" />
+    <configuration name="ArraySumPreviousElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onrecursion.ArraySumPreviousElements" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -585,19 +625,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.BST" />
       <item itemvalue="Application.CountSort" />
       <item itemvalue="Application.ArraySumPreviousElements" />
       <item itemvalue="Application.OnePager" />
       <item itemvalue="Application.GFG" />
+      <item itemvalue="Application.Accessspecifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Accessspecifier" />
         <item itemvalue="Application.OnePager" />
         <item itemvalue="Application.GFG" />
         <item itemvalue="Application.ArraySumPreviousElements" />
         <item itemvalue="Application.CountSort" />
-        <item itemvalue="Application.BST" />
       </list>
     </recent_temporary>
   </component>
@@ -743,21 +783,9 @@
       <workItem from="1563332566657" duration="60000" />
       <workItem from="1563432794646" duration="3000" />
       <workItem from="1563434532889" duration="2896000" />
-      <workItem from="1564546666497" duration="663000" />
-    </task>
-    <task id="LOCAL-00100" summary="Concurrency #1 #helloworld">
-      <created>1556907064254</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1556907064254</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Concurrency #2 #sleep using timeunit #interuppted #interuppt using Bartender Customer">
-      <created>1556909084403</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1556909084404</updated>
+      <workItem from="1564546666497" duration="3703000" />
+      <workItem from="1564680929890" duration="840000" />
+      <workItem from="1567518778323" duration="61000" />
     </task>
     <task id="LOCAL-00102" summary="#hashing added hashfunctions, java based and other">
       <created>1557036340816</created>
@@ -1088,11 +1116,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563118020665</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="#recusrion #dp coin change">
+      <created>1564595260657</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1564595260658</updated>
+    </task>
+    <task id="LOCAL-00150" summary="#string permutations">
+      <created>1564599197895</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1564599197895</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559113000" />
+    <option name="totallyTimeSpent" value="563054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1105,12 +1147,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.27114093" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.31275168" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.32214764" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30726257" />
@@ -1118,7 +1161,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.33519554" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.33519554" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.37709498" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
@@ -1207,8 +1250,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#sorting MergeTwoSortedArrayToOne" />
-    <MESSAGE value="#sorting MergeTwoSortedLists to one" />
     <MESSAGE value="#sorting RemoveDuplicates  names" />
     <MESSAGE value="#sorting CalendarRendering" />
     <MESSAGE value="#sorting interval merge problem" />
@@ -1232,7 +1273,9 @@
     <MESSAGE value="#bst is valid bst" />
     <MESSAGE value="#binary tree mirror" />
     <MESSAGE value="#trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="#trie" />
+    <MESSAGE value="#recusrion #dp coin change" />
+    <MESSAGE value="#string permutations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#string permutations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1689,48 +1732,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/CanReachEndOfArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/RemoveDuplicateFromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/StockBuySell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/BuyAndSellStockTwice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/PrimeNumberUptoN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/IsValidBst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -2011,6 +2012,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJViewServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -2022,6 +2024,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onhashtable/TopKWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6120">
+          <caret line="360" selection-start-line="360" selection-end-line="360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/IsArraySorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2039,10 +2072,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onhashtable/TopKWords.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>

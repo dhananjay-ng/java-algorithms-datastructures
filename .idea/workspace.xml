@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="#access">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java" afterDir="false" />
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="uni">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BPMObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatModelInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/BeatObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/ControllerInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJTestDrive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJViewServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartModelInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/HeartTestDrive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/jsp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/jsp/djview.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/jsp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/javarecipies/comparator/ComparetoExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/javarecipies/comparator/ComparetoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/javarecipies/comparator/ComparetoExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onarray/LaregestNumberFromArray$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onarray/LaregestNumberFromArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onarray/LaregestNumberFromArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javarecipies/comparator/ComparetoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javarecipies/comparator/ComparetoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onarray/LaregestNumberFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/LaregestNumberFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,24 +33,26 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="115" />
+          <entry key="project.closed" value="124" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="5" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="16" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="17" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="10" />
@@ -74,24 +65,24 @@
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="120" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="50847" />
+          <entry key="java" value="52148" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="5431" />
+          <entry key="txt" value="5482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="50847" />
+          <entry key="JAVA" value="52148" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="5441" />
+          <entry key="PLAIN_TEXT" value="5492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -100,7 +91,7 @@
           <entry key="CLASS" value="27" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="464" />
+          <entry key="JAVA" value="474" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="10" />
@@ -114,7 +105,7 @@
           <entry key="class" value="27" />
           <entry key="gif" value="1" />
           <entry key="iml" value="4" />
-          <entry key="java" value="465" />
+          <entry key="java" value="475" />
           <entry key="md" value="4" />
           <entry key="output" value="1" />
           <entry key="png" value="2" />
@@ -131,55 +122,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/LCA.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onsorting/IntervalAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="1020">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onhashtable/ValidAnagram.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/comparator/ComparetoExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onhashtable/TopKWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6120">
-              <caret line="360" selection-start-line="360" selection-end-line="360" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/IsArraySorted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="289">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,23 +143,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/helloworld/RealHelloWorldMultithreaded.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="397">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentationsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/InterruptedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -259,6 +246,7 @@
       <find>websites.he.tree.</find>
       <find>websites.he.tree.BST.</find>
       <find>Node</find>
+      <find>Comparator</find>
     </findStrings>
     <replaceStrings>
       <replace>int</replace>
@@ -278,11 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/IntervalAdd.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/MergeSortProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/sort/MergeSortBottomUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/websites/he/testtwo/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/websites/he/LIS.java" />
         <option value="$PROJECT_DIR$/src/main/java/websites/he/Beetles.java" />
@@ -329,6 +312,11 @@
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/accessspecifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onarray/LaregestNumberFromArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/comparator/ComparetoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentationsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentations.java" />
       </list>
     </option>
   </component>
@@ -340,8 +328,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1937" />
-    <option name="height" value="1050" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -396,8 +385,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="COPP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -421,37 +419,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="onarray" type="462c0819:PsiDirectoryNode" />
+              <item name="onstring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="COPP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jogl-all.jar!/" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3216912" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -486,13 +483,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Accessspecifier">
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.UniqueMorseRepresentationsTest.testMorseCodes">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -520,24 +511,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySumPreviousElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onrecursion.ArraySumPreviousElements" />
-      <module name="main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sort.CountSort" />
-      <module name="main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testingsystem.misccode.GFG" />
+      <module name="main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.concurrency.creatingthreads.HelloWorld" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -554,6 +537,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueMorseRepresentationsTest.testMorseCodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <option name="PACKAGE_NAME" value="problems.onstring" />
+      <option name="MAIN_CLASS_NAME" value="problems.onstring.UniqueMorseRepresentationsTest" />
+      <option name="METHOD_NAME" value="testMorseCodes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -625,19 +625,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.CountSort" />
-      <item itemvalue="Application.ArraySumPreviousElements" />
       <item itemvalue="Application.OnePager" />
       <item itemvalue="Application.GFG" />
       <item itemvalue="Application.Accessspecifier" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="JUnit.UniqueMorseRepresentationsTest.testMorseCodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniqueMorseRepresentationsTest.testMorseCodes" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Accessspecifier" />
         <item itemvalue="Application.OnePager" />
         <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.ArraySumPreviousElements" />
-        <item itemvalue="Application.CountSort" />
       </list>
     </recent_temporary>
   </component>
@@ -785,14 +785,17 @@
       <workItem from="1563434532889" duration="2896000" />
       <workItem from="1564546666497" duration="3703000" />
       <workItem from="1564680929890" duration="840000" />
-      <workItem from="1567518778323" duration="61000" />
-    </task>
-    <task id="LOCAL-00102" summary="#hashing added hashfunctions, java based and other">
-      <created>1557036340816</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1557036340817</updated>
+      <workItem from="1567518778323" duration="182000" />
+      <workItem from="1567825276520" duration="595000" />
+      <workItem from="1568046664415" duration="837000" />
+      <workItem from="1568047937701" duration="2337000" />
+      <workItem from="1568087753119" duration="73000" />
+      <workItem from="1568825357535" duration="1232000" />
+      <workItem from="1568906753033" duration="2808000" />
+      <workItem from="1569044201303" duration="591000" />
+      <workItem from="1569209115090" duration="1000" />
+      <workItem from="1571458683628" duration="158000" />
+      <workItem from="1571459044897" duration="1153000" />
     </task>
     <task id="LOCAL-00103" summary="#hashing hashmap with separate chaining">
       <created>1557055505881</created>
@@ -1130,11 +1133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1564599197895</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="#remove element #1/100">
+      <created>1567518896831</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1567518896832</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UniqueMorseRepresentationsTest_testMorseCodes - 2019.10.19 at 10h 20m 30s.xml">
+      <configuration name="UniqueMorseRepresentationsTest.testMorseCodes" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="563054000" />
+    <option name="totallyTimeSpent" value="572960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1153,15 +1168,15 @@
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.32214764" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.37181208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30726257" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30167598" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" weight="0.41759777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.33519554" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.32681563" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.37709498" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
@@ -1250,7 +1265,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#sorting RemoveDuplicates  names" />
     <MESSAGE value="#sorting CalendarRendering" />
     <MESSAGE value="#sorting interval merge problem" />
     <MESSAGE value="removed not cool animations" />
@@ -1275,7 +1289,8 @@
     <MESSAGE value="#trie" />
     <MESSAGE value="#recusrion #dp coin change" />
     <MESSAGE value="#string permutations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#string permutations" />
+    <MESSAGE value="#remove element #1/100" />
+    <option name="LAST_COMMIT_MESSAGE" value="#remove element #1/100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1732,90 +1747,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="574" selection-start-line="574" selection-end-line="574" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/ReverseAllWordsInString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/ReverseWordsInAGivenString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/FastCollinearPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/MirrorOfTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/OnePager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/websites/he/mergesort/Beetles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/websites/he/mergesort/JustSortingArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/websites/he/mergesort/MileyMaxScoreSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/websites/he/mergesort/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/suffixprefix/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
@@ -2050,11 +1981,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
+        <state relative-caret-position="2907">
           <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/helloworld/RealHelloWorldMultithreadedRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/ArrayMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4046">
+          <caret line="239" column="46" selection-start-line="239" selection-start-column="46" selection-end-line="239" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/LaregestNumberFromArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onsorting/_012Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onsorting/IntervalAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/comparator/ComparetoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/helloworld/RealHelloWorldMultithreaded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -2072,21 +2083,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
         </state>
       </provider>
     </entry>

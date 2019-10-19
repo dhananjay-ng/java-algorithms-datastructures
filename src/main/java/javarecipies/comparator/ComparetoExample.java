@@ -1,6 +1,7 @@
 package javarecipies.comparator;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.Comparator;
 /**
  * Created by apprentice on 7/13/2018.
  */
@@ -31,13 +32,8 @@ public class ComparetoExample {
         System.out.println(ft.compareTo(or));
         System.out.println(or.compareTo(ap));
 
-        Comparator<Fruit> compt=new Comparator<Fruit>() {
-            @Override
-            public int compare(Fruit fruit, Fruit t1) {
-                return fruit.getSize()>t1.getSize()?  1:fruit.getSize()<t1.getSize()? -1: 0;
+        Comparator<Fruit> compt = (fruit, t1) -> fruit.getSize() > t1.getSize() ? 1 : fruit.getSize() < t1.getSize() ? -1 : 0;
 
-            }
-        };
 
         Comparator<Fruit> comptWithLambda=(Fruit fruit, Fruit t1) ->
                 fruit.getSize()>t1.getSize()?  1:fruit.getSize()<t1.getSize()? -1: 0;

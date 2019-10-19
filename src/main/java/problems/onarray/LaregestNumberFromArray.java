@@ -9,11 +9,7 @@ public class LaregestNumberFromArray {
             s[i]= String.valueOf(arr[i]);
         }
 
-        Arrays.sort(s, new Comparator<String>() {
-            public int compare(String o1, String o2) {
-                return (o2+o1).compareTo(o1 + o2);
-            }
-        });
+        Arrays.sort(s, (o1, o2)->(o2+o1).compareTo(o1 + o2));
 
         StringBuilder res=new StringBuilder();
         for (String sp:s)

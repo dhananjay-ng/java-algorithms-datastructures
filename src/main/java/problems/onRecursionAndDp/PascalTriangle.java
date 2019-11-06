@@ -24,6 +24,22 @@ public class PascalTriangle {
         return res;
     }
 
+    public List<Integer> getRow(int numRows) {
+        numRows++;
+        int cache[][] = new int[numRows + 1][numRows + 1];
+        List<Integer> row = new ArrayList<>();
+
+        for (int i = 0; i <= numRows; i++) {
+            Arrays.fill(cache[i], -1);
+        }
+
+        for (int i = numRows; i <= numRows; i++) {
+            for (int j = 1; j <= i; j++) {
+                row.add(getNumFromPascalTriangle(i, j, cache));
+            }
+        }
+        return row;
+    }
 
     public int getNumFromPascalTriangle(int i, int j, int[][] cache) {
         if (j == 1 || i == j) return 1;

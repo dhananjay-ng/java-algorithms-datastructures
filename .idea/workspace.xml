@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="leetcode circle check">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/test.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/test.out" afterDir="false" />
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="leetcode pascal triangle recursion dp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onlinkedlist/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SwapPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/ArraySumPreviousElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ArraySumPreviousElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/HanoiTowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/HanoiTowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/IsArraySorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/IsArraySorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/StringPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onrecursion/ArraySumPreviousElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onrecursion/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onrecursion/HanoiTowers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onrecursion/IsArraySorted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,17 +73,17 @@
         <counts>
           <entry key="dummy" value="38" />
           <entry key="in" value="3" />
-          <entry key="java" value="52320" />
+          <entry key="java" value="52482" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="5573" />
+          <entry key="txt" value="5625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52320" />
+          <entry key="JAVA" value="52482" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="5616" />
+          <entry key="PLAIN_TEXT" value="5668" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -97,7 +92,7 @@
           <entry key="CLASS" value="27" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="482" />
+          <entry key="JAVA" value="483" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="12" />
@@ -112,7 +107,7 @@
           <entry key="gif" value="1" />
           <entry key="iml" value="4" />
           <entry key="in" value="1" />
-          <entry key="java" value="483" />
+          <entry key="java" value="484" />
           <entry key="md" value="4" />
           <entry key="out" value="1" />
           <entry key="output" value="1" />
@@ -184,13 +179,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="8" column="40" selection-end-line="39" />
+            <state relative-caret-position="227">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ReverseList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="14" column="59" selection-end-line="42" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -271,7 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/tree/MonkAndHisFriends.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/MaxInPathBetweenTwoNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/HeightOfBst.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/FindLeftExteriorNodesOfTree.java" />
@@ -322,6 +329,7 @@
         <option value="$PROJECT_DIR$/src/main/java/problems/onrecursionAndDp/SwapPairs.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SwapPairs.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ReverseList.java" />
       </list>
     </option>
   </component>
@@ -332,9 +340,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -495,7 +503,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.ReverseList">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -515,16 +523,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Accessspecifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.Accessspecifier" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javarecipies.concurrency.creatingthreads.HelloWorld" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.concurrency.creatingthreads.HelloWorld" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.ReverseList" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -640,19 +648,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.Accessspecifier" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="JUnit.StringProblemTests.testMorseCodes" />
       <item itemvalue="JUnit.StringProblemTests.judgeCircle" />
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.ReverseList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.test" />
         <item itemvalue="JUnit.StringProblemTests.judgeCircle" />
         <item itemvalue="JUnit.StringProblemTests.testMorseCodes" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Accessspecifier" />
       </list>
     </recent_temporary>
   </component>
@@ -816,14 +824,7 @@
       <workItem from="1572844386585" duration="191000" />
       <workItem from="1572879885016" duration="13380000" />
       <workItem from="1573018190079" duration="672000" />
-      <workItem from="1573029895441" duration="183000" />
-    </task>
-    <task id="LOCAL-00108" summary="#hashing hashmap is one string can be made from other">
-      <created>1557164906232</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1557164906232</updated>
+      <workItem from="1573029895441" duration="1712000" />
     </task>
     <task id="LOCAL-00109" summary="#hashing LRUCache implemetation using linkedlist of keys">
       <created>1557251552394</created>
@@ -1161,7 +1162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573018335977</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="leetcode pascal triangle recursion dp">
+      <created>1573030140279</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1573030140282</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1179,7 +1187,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="630501000" />
+    <option name="totallyTimeSpent" value="632030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1198,15 +1206,15 @@
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2758389" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2758389" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30167598" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" weight="0.41759777" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" visible="true" weight="0.41759777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.32681563" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" weight="0.32681563" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.37709498" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
@@ -1295,7 +1303,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#sorting merge sort practive on HC : opps copying not needed due to trick used" />
     <MESSAGE value="#sorting bottom up merge sort" />
     <MESSAGE value="#sorting beetles" />
     <MESSAGE value="#sorting miley score problem" />
@@ -1320,7 +1327,8 @@
     <MESSAGE value="leetcode numUniqueEmails" />
     <MESSAGE value="leetcode SwapPairs" />
     <MESSAGE value="leetcode paris swap the best" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode paris swap the best" />
+    <MESSAGE value="leetcode pascal triangle recursion dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode pascal triangle recursion dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1703,6 +1711,12 @@
           <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ReverseList.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java</url>
           <line>172</line>
@@ -1777,13 +1791,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/LuxuryCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -2129,10 +2136,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="8" column="40" selection-end-line="39" />
+        <state relative-caret-position="227">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="59" selection-end-line="42" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
           </folding>
         </state>
       </provider>

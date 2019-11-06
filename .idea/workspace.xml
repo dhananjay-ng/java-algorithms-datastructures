@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="leetcode unique morse code rep">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onstring/JudgeCircle.java" afterDir="false" />
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="leetcode circle check">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/test.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/test.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onstring/StringProblemTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onlinkedlist/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/ArraySumPreviousElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ArraySumPreviousElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/HanoiTowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/HanoiTowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/IsArraySorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/IsArraySorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/StringPermutations.java" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,16 +34,18 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="124" />
+          <entry key="project.closed" value="130" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.198" value="1" />
           <entry key="project.open.time.2" value="16" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="1" />
@@ -55,26 +66,29 @@
           <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="130" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="java" value="52235" />
+          <entry key="in" value="3" />
+          <entry key="java" value="52320" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="5524" />
+          <entry key="txt" value="5573" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52235" />
+          <entry key="JAVA" value="52320" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="5564" />
+          <entry key="PLAIN_TEXT" value="5616" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -83,10 +97,10 @@
           <entry key="CLASS" value="27" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="475" />
+          <entry key="JAVA" value="482" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -97,8 +111,10 @@
           <entry key="class" value="27" />
           <entry key="gif" value="1" />
           <entry key="iml" value="4" />
-          <entry key="java" value="476" />
+          <entry key="in" value="1" />
+          <entry key="java" value="483" />
           <entry key="md" value="4" />
+          <entry key="out" value="1" />
           <entry key="output" value="1" />
           <entry key="png" value="2" />
           <entry key="txt" value="6" />
@@ -113,11 +129,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/StringProblemTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,9 +142,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onlinkedlist/EvenOddListMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/AddOneToArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SwapPairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="8" column="40" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.out">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/JudgeCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="527">
               <caret line="31" column="170" selection-start-line="31" selection-start-column="170" selection-end-line="31" selection-end-column="170" />
             </state>
           </provider>
@@ -186,16 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/Beetles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/MileyMaxScoreSorting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/mergesort/MileyMaxScoreSorting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/websites/he/mergesort/JustSortingArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/MergeSortLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/MergeTwoSortedLinkedListInReverseOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/_012Sorting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/websites/he/tree/MonkAndHisFriends.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/MaxInPathBetweenTwoNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onbinarytree/onbst/HeightOfBst.java" />
@@ -237,6 +312,16 @@
         <option value="$PROJECT_DIR$/src/main/java/problems/onstring/UniqueMorseRepresentations.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onstring/JudgeCircle.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onstring/StringProblemTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onstring/NumUniqueEmails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/test/test.in" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/test/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onlinkedlist/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursion/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursionandDp/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursionAndDp/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java" />
       </list>
     </option>
   </component>
@@ -249,8 +334,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="width" value="1939" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -339,7 +424,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="onstring" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="onRecursionAndDp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
@@ -403,7 +495,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringProblemTests.judgeCircle">
+  <component name="RunManager" selected="Application.test">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -439,15 +531,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnePager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javarecipies.OnePager" />
-      <module name="main" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.test.test" />
+      <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -548,19 +640,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.OnePager" />
       <item itemvalue="Application.Accessspecifier" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="JUnit.StringProblemTests.testMorseCodes" />
       <item itemvalue="JUnit.StringProblemTests.judgeCircle" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="JUnit.StringProblemTests.judgeCircle" />
         <item itemvalue="JUnit.StringProblemTests.testMorseCodes" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Accessspecifier" />
-        <item itemvalue="Application.OnePager" />
       </list>
     </recent_temporary>
   </component>
@@ -718,35 +810,13 @@
       <workItem from="1569044201303" duration="591000" />
       <workItem from="1569209115090" duration="1000" />
       <workItem from="1571458683628" duration="158000" />
-      <workItem from="1571459044897" duration="1711000" />
-    </task>
-    <task id="LOCAL-00104" summary="#hashing hashmap with linear probing">
-      <created>1557055533139</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1557055533139</updated>
-    </task>
-    <task id="LOCAL-00105" summary="#hashing #leetcode group anagrams">
-      <created>1557068184736</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1557068184739</updated>
-    </task>
-    <task id="LOCAL-00106" summary="#hashing #leetcode validate anagrams">
-      <created>1557069559002</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1557069559002</updated>
-    </task>
-    <task id="LOCAL-00107" summary="#hashing test for palindrome permutaion">
-      <created>1557162499668</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1557162499670</updated>
+      <workItem from="1571459044897" duration="42578000" />
+      <workItem from="1572345932361" duration="845000" />
+      <workItem from="1572510607596" duration="845000" />
+      <workItem from="1572844386585" duration="191000" />
+      <workItem from="1572879885016" duration="13380000" />
+      <workItem from="1573018190079" duration="672000" />
+      <workItem from="1573029895441" duration="183000" />
     </task>
     <task id="LOCAL-00108" summary="#hashing hashmap is one string can be made from other">
       <created>1557164906232</created>
@@ -1063,7 +1133,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571460771290</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="leetcode circle check">
+      <created>1571461741187</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1571461741187</updated>
+    </task>
+    <task id="LOCAL-00154" summary="leetcode numUniqueEmails">
+      <created>1571509512156</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509512156</updated>
+    </task>
+    <task id="LOCAL-00155" summary="leetcode SwapPairs">
+      <created>1572884226207</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1572884226208</updated>
+    </task>
+    <task id="LOCAL-00156" summary="leetcode paris swap the best">
+      <created>1573018335976</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1573018335977</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1076,9 +1174,12 @@
     <history-entry file="StringProblemTests_judgeCircle - 2019.10.19 at 10h 31m 28s.xml">
       <configuration name="StringProblemTests.judgeCircle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringProblemTests_judgeCircle - 2019.10.19 at 10h 31m 40s.xml">
+      <configuration name="StringProblemTests.judgeCircle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573518000" />
+    <option name="totallyTimeSpent" value="630501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1097,15 +1198,15 @@
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.37181208" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2758389" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5328859" visible="true" weight="0.30167598" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30167598" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" weight="0.41759777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" weight="0.32681563" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.32681563" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.37709498" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
@@ -1127,15 +1228,15 @@
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.38255033" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5328859" visible="true" weight="0.30865923" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" weight="0.41899443" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30167598" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" weight="0.41759777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" weight="0.34078214" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" visible="true" weight="0.32681563" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.37709498" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
@@ -1194,10 +1295,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#sorting interval merge problem" />
-    <MESSAGE value="removed not cool animations" />
-    <MESSAGE value="#hashing hashmap with linear probing" />
-    <MESSAGE value="#sorting merge sort practive on HC" />
     <MESSAGE value="#sorting merge sort practive on HC : opps copying not needed due to trick used" />
     <MESSAGE value="#sorting bottom up merge sort" />
     <MESSAGE value="#sorting beetles" />
@@ -1219,7 +1316,11 @@
     <MESSAGE value="#string permutations" />
     <MESSAGE value="#remove element #1/100" />
     <MESSAGE value="leetcode unique morse code rep" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode unique morse code rep" />
+    <MESSAGE value="leetcode circle check" />
+    <MESSAGE value="leetcode numUniqueEmails" />
+    <MESSAGE value="leetcode SwapPairs" />
+    <MESSAGE value="leetcode paris swap the best" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode paris swap the best" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1676,69 +1777,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/LuxuryCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/SedanCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/TestCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/USACarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/SmallCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/builder/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1887,21 +1925,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6120">
           <caret line="360" selection-start-line="360" selection-end-line="360" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/IsArraySorted.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/IsArraySorted.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/StringPermutations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="171" selection-start-line="171" selection-end-line="171" />
@@ -1940,9 +1978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1992,9 +2027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2019,17 +2051,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/JudgeCircle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/NumUniqueEmails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="170" selection-start-line="31" selection-start-column="170" selection-end-line="31" selection-end-column="170" />
+        <state relative-caret-position="193">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/StringProblemTests.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onlinkedlist/EvenOddListMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onarray/AddOneToArray.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/JudgeCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="170" selection-start-line="31" selection-start-column="170" selection-end-line="31" selection-end-column="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SwapPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1455">
+          <caret line="3639" lean-forward="true" selection-start-line="3639" selection-end-line="3639" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PascalTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="8" column="40" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2088,7 +2189,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

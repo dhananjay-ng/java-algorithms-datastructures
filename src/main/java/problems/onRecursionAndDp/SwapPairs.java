@@ -1,4 +1,4 @@
-package problems.onlinkedlist;
+package problems.onRecursionAndDp;
 
 public class SwapPairs {
     /**

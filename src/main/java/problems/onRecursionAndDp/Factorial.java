@@ -1,4 +1,4 @@
-package problems.onrecursion;
+package problems.onRecursionAndDp;
 
 public class Factorial {
     static int fact(int n) {

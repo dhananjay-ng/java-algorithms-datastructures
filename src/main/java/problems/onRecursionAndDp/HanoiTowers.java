@@ -1,4 +1,4 @@
-package problems.onrecursion;
+package problems.onRecursionAndDp;
 
 public class HanoiTowers {
     static void game(int n, char fromTower, char middleTower, char desitnationTower) {

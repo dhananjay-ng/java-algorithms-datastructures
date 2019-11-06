@@ -1,4 +1,4 @@
-package problems.onrecursion;
+package problems.onRecursionAndDp;
 
 import java.io.*;
 import java.util.Arrays;

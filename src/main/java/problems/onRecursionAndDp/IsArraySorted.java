@@ -1,4 +1,4 @@
-package problems.onrecursion;
+package problems.onRecursionAndDp;
 
 public class IsArraySorted {
     static boolean isSorted(int[] A, int n) {

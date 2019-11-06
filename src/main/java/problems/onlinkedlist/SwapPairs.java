@@ -22,28 +22,19 @@ public class SwapPairs {
             val = x;
         }
     }
-
     public ListNode swapPairs(ListNode head) {
-        ListNode senti = new ListNode(0);
-        ListNode first = head;
-        ListNode second = first != null ? first.next : first;
-        senti.next = second != null ? second : first;
-        ListNode cur = senti;
-
-        while (first != null && second != null) {
-            swap(cur, first, second);
-            cur = first;
-            first = first.next;
-            second = first != null ? first.next : first;
-
-        }
-        return senti.next;
+        if (head == null) return head;
+        return pairsSwap(head, head.next);
     }
-
-    private void swap(ListNode cur, ListNode first, ListNode second) {
-        ListNode temp = second.next;
+    private ListNode pairsSwap(ListNode first, ListNode second) {
+        if(first == null || second == null) return first;
+        if(second.next == null) {
+            second.next = first;
+            first.next = null;
+            return second;
+        }
+        first.next = pairsSwap(second.next, second.next.next);
         second.next = first;
-        first.next = temp;
-        cur.next = second;
+        return second;
     }
 }

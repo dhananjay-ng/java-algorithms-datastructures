@@ -4,6 +4,7 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class CodingBlocks {
     static class Reader {
@@ -150,83 +151,47 @@ public class CodingBlocks {
         }
     }
 
-    public static String stringWindow(String s1, String s2) {
-
-        HashMap<Character, Integer> foundCharCount = new HashMap<>();
-        HashMap<Character, Integer> neededCharCount = new HashMap<>();
-
-//min positions of start and end index
-        int startmin = 0;
-        int endmin = Integer.MAX_VALUE;
-
-// to hold current iteration
-        int iter = 0;
-        int curStart = -1;
-
-        int curFoundLength = 0;
-        int neededLength = s2.length();
-        for (int i = 0; i < s2.length(); i++) {
-            foundCharCount.put(s2.charAt(i),0);
-            if(neededCharCount.containsKey(s2.charAt(i))) {
-                neededCharCount.put(s2.charAt(i), neededCharCount.get(s2.charAt(i)) + 1);
-            } else {
-                neededCharCount.put(s2.charAt(i),1);
-            }
-        }
-
-        for (int i = 0; i < s2.length(); i++) foundCharCount.put(s2.charAt(i),0);
-
-
-
-        for (iter = 0; iter < s1.length(); iter++) {
-            Character currentChar = s1.charAt(iter);
-            if(foundCharCount.containsKey(currentChar) && !(curFoundLength == neededLength)) {
-                if (curStart == -1) curStart = iter;
-                foundCharCount.put(currentChar, foundCharCount.get(currentChar) +1);
-                if (foundCharCount.get(currentChar) <= neededCharCount.get(currentChar)) {
-                    curFoundLength++;
-                }
-            }
-            if (curFoundLength == neededLength) {
-                if (iter - curStart < endmin - startmin) {
-                    startmin = curStart;
-                    endmin = iter;
-                }
-                foundCharCount.put(s1.charAt(curStart), foundCharCount.get(s1.charAt(curStart)) -1);
-                if(foundCharCount.get(s1.charAt(curStart)) < neededCharCount.get(s1.charAt(curStart))) {
-                    curFoundLength--;
-                }
-                for(int i=curStart+1; i < s1.length();i++) {
-                    if (foundCharCount.containsKey(s1.charAt(i))) {
-                        curStart = i;
-                        break;
-                    }
-                }
-
-            }
-            if ((curFoundLength == neededLength)) {
-                iter--;
-            }
-
-        }
-
-        if (startmin >=0 && startmin <=s1.length() && endmin >=0 && endmin<=s1.length()) {
-            return s1.substring(startmin, endmin+1);
-        } else {
-            return "No string";
-        }
-    }
-
-    public static void main(String[] args) throws IOException {
+    public static void largestPermutaionAfterKSwaps() throws IOException {
         // write your code here
-       Reader in = new Reader("src\\main\\java\\testingsystem\\misccode\\input.txt");
-       // Reader in = new Reader();
+        Reader in = new Reader("src\\main\\java\\testingsystem\\misccode\\input.txt");
+        // Reader in = new Reader();
+        int n;
+        n = in.nextInt();
+        int k;
+        k = in.nextInt();
+        int[] input;
+        input = new int[n];
 
-        String s1= in.readLine();
-        String s2 =in.readLine();
-        System.out.println(stringWindow(s1, s2));
+        HashMap<Integer, Integer> permutation = new HashMap<>();
+        for (int i=0;i<n;i++) {
+            int ele = in.nextInt();
+            input[i] = ele;
+            permutation.put(ele, i);
+        }
+        int l = n;
+        int start = 0;
+        while (n >0 && k-- > 0 && l > 0) {
+            int lastkapos = permutation.get(l);
+            int lastkaval = input[lastkapos];
 
+            if (lastkapos!=start) {
+                input[lastkapos] = input[start];
+                input[start] = lastkaval;
+                permutation.put(input[lastkapos], lastkapos );
+                permutation.put(input[start], start);
+            } else {
+                k++;
+            }
 
+            start++;
+            l--;
+        }
+        for (int i=0;i<input.length;i++)
+            System.out.print(input[i] + " ");
+
+    }
+    public static void main(String[] args) throws IOException {
+        largestPermutaionAfterKSwaps();
 
     }
 }

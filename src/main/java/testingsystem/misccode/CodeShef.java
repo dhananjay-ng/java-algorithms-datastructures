@@ -1,11 +1,10 @@
 package testingsystem.misccode;
 
-
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class Main {
+public class CodeShef {
     static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
@@ -168,3 +167,4 @@ public class Main {
         System.out.println(result);
     */
 }
+

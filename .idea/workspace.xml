@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="">
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="codeshef november challange">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onstring/StringWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onarray/MissingAndDuplicateNumberInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onarray/MissingAndDuplicateNumberInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onarray/gfg/FindNumberInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onarray/gfg/FindNumberInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/IsPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/IsPrime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onsorting/_012Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onsorting/_012Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onstring/gfg/PossibleNumberStringsStartAndEndWithOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onstring/gfg/PossibleNumberStringsStartAndEndWithOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/GFG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/websites/he/TreeDiameter$Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/websites/he/TreeDiameter$Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/websites/he/TreeDiameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/websites/he/TreeDiameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onarray/MissingAndDuplicateNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/MissingAndDuplicateNumberInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onarray/gfg/FindNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/gfg/FindNumberInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onsorting/_012Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onsorting/_012Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onstring/gfg/PossibleNumberStringsStartAndEndWithOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onstring/gfg/PossibleNumberStringsStartAndEndWithOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/Reader2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/websites/he/TreeDiameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/websites/he/TreeDiameter.java" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +36,7 @@
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="4" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
@@ -81,24 +66,24 @@
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="7" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="137" />
+          <entry key="project.opened" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
           <entry key="in" value="3" />
-          <entry key="java" value="56695" />
+          <entry key="java" value="57742" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="5821" />
+          <entry key="txt" value="5886" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="56695" />
+          <entry key="JAVA" value="57741" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="5865" />
+          <entry key="PLAIN_TEXT" value="5931" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -107,10 +92,10 @@
           <entry key="CLASS" value="27" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="498" />
+          <entry key="JAVA" value="502" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -122,12 +107,12 @@
           <entry key="gif" value="1" />
           <entry key="iml" value="4" />
           <entry key="in" value="1" />
-          <entry key="java" value="499" />
+          <entry key="java" value="505" />
           <entry key="md" value="4" />
           <entry key="out" value="1" />
           <entry key="output" value="1" />
           <entry key="png" value="2" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="9" />
           <entry key="vmoptions" value="2" />
           <entry key="xml" value="7" />
         </counts>
@@ -139,39 +124,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2475">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="174">
+              <caret line="159" column="88" lean-forward="true" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="88" />
               <folding>
-                <element signature="e#3327#3328#0" expanded="true" />
-                <element signature="e#3353#3354#0" expanded="true" />
-                <element signature="e#3388#3389#0" expanded="true" />
-                <element signature="e#3418#3419#0" expanded="true" />
-                <element signature="e#3446#3447#0" expanded="true" />
-                <element signature="e#3473#3474#0" expanded="true" />
-                <element signature="e#3510#3511#0" expanded="true" />
-                <element signature="e#3542#3543#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/StringWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9214">
-              <caret line="63" column="48" lean-forward="true" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+            <state relative-caret-position="381">
+              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/NumUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4234#4235#0" expanded="true" />
+                <element signature="e#4323#4324#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,8 +162,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/output.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-506">
+              <caret line="6" column="23" selection-end-line="170" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4166#4167#0" expanded="true" />
+                <element signature="e#4255#4256#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,7 +190,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="629">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
@@ -246,10 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/sort/CountSortAlphabet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/sort/CountSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/TwoMaxNumberSimultaniously.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/TripLetWithZeroSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onsorting/BinaryArraySorting.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/DeleteMiddleOfList.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onarray/MissingAndDuplicateNumberInArray.java" />
@@ -295,8 +293,12 @@
         <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/WaysToSelectSixNumberOutOf49.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onstring/Sorting.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/MedianOfTwoSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onstring/StringWindow.java" />
       </list>
     </option>
   </component>
@@ -367,17 +369,6 @@
     <panes>
       <pane id="Course" />
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="COPP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,13 +391,6 @@
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,20 +404,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="onbitmanipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="onstring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="misccode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="misccode" type="462c0819:PsiDirectoryNode" />
-              <item name="GFG.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
@@ -443,6 +427,17 @@
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="COPP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -495,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GFG">
+  <component name="RunManager" selected="Application.CodingBlocks">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -515,8 +510,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BirthdayParadox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onmath.gfg.BirthdayParadox" />
+    <configuration name="CodingBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingsystem.misccode.CodingBlocks" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -634,19 +629,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
-      <item itemvalue="Application.BirthdayParadox" />
       <item itemvalue="Application.WaysToSelectSixNumberOutOf49" />
       <item itemvalue="Application.Sorting" />
       <item itemvalue="Application.MedianOfTwoSortedArrays" />
       <item itemvalue="Application.GFG" />
+      <item itemvalue="Application.CodingBlocks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodingBlocks" />
         <item itemvalue="Application.GFG" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.WaysToSelectSixNumberOutOf49" />
-        <item itemvalue="Application.BirthdayParadox" />
       </list>
     </recent_temporary>
   </component>
@@ -812,13 +807,7 @@
       <workItem from="1573018190079" duration="672000" />
       <workItem from="1573029895441" duration="3719000" />
       <workItem from="1573144560525" duration="13800000" />
-    </task>
-    <task id="LOCAL-00114" summary="#hashing hashmap NearestRepeatedEntries">
-      <created>1557464757343</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1557464757344</updated>
+      <workItem from="1573447526611" duration="4256000" />
     </task>
     <task id="LOCAL-00115" summary="#hashing hashmap findSmallestSubarrayCoveringSet">
       <created>1558462757847</created>
@@ -1156,7 +1145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573196453182</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="codeshef november challange">
+      <created>1573447609994</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1573447609995</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1174,7 +1170,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="647837000" />
+    <option name="totallyTimeSpent" value="652093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1186,23 +1182,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.27114093" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.27986577" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5328859" weight="0.30167598" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5328859" visible="true" weight="0.30167598" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62684566" weight="0.41759777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" weight="0.32681563" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.37709498" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.447651" weight="0.41201118" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.2849162" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5302013" side_tool="true" weight="0.5502793" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4785235" weight="0.3282123" />
@@ -1290,7 +1286,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#bst hackerearth" />
     <MESSAGE value="#bst height" />
     <MESSAGE value="#treeset in use" />
     <MESSAGE value="#bst max in path between two nodes" />
@@ -1315,7 +1310,8 @@
     <MESSAGE value="cp #math WaysToSelectSixNumberOutOf49" />
     <MESSAGE value="cp #string #comparator sorting" />
     <MESSAGE value="cp #meadian of two sorted arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp #meadian of two sorted arrays" />
+    <MESSAGE value="codeshef november challange" />
+    <option name="LAST_COMMIT_MESSAGE" value="codeshef november challange" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1716,6 +1712,12 @@
           <properties />
           <option name="timeStamp" value="187" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java</url>
           <line>172</line>
@@ -1795,35 +1797,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/StaticBlockSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/BillPughSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/combined/djview/DJViewServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onbinarytree/LCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onhashtable/ValidAnagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -2117,20 +2090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9214">
-          <caret line="63" column="48" lean-forward="true" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -2138,34 +2097,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/SubStringSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/util/NumUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
+        <state relative-caret-position="17">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="6" column="23" selection-end-line="170" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/GFG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2475">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="174">
+          <caret line="159" column="88" lean-forward="true" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="88" />
           <folding>
-            <element signature="e#3327#3328#0" expanded="true" />
-            <element signature="e#3353#3354#0" expanded="true" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3418#3419#0" expanded="true" />
-            <element signature="e#3446#3447#0" expanded="true" />
-            <element signature="e#3473#3474#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4234#4235#0" expanded="true" />
+            <element signature="e#4323#4324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/StringWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
         </state>
       </provider>
     </entry>

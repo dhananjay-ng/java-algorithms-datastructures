@@ -1,6 +1,6 @@
 package problems.onarray;
 
-import testingsystem.misccode.Reader;
+import testingsystem.misccode.Reader2;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -10,7 +10,7 @@ public class MissingAndDuplicateNumberInArray {
 
     }
         public void missingAndDupNaive() throws IOException {
-        Reader in = new Reader();
+        Reader2 in = new Reader2();
         StringBuilder result = new StringBuilder();
         int n = in.nextInt();
         int ans = Integer.MAX_VALUE;

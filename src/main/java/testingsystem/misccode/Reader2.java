@@ -4,19 +4,19 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class Reader {
+public class Reader2 {
     final private int BUFFER_SIZE = 1 << 16;
     private DataInputStream din;
     private byte[] buffer;
     private int bufferPointer, bytesRead;
 
-    public Reader() {
+    public Reader2() {
         din = new DataInputStream(System.in);
         buffer = new byte[BUFFER_SIZE];
         bufferPointer = bytesRead = 0;
     }
 
-    public Reader(String file_name) throws IOException {
+    public Reader2(String file_name) throws IOException {
         din = new DataInputStream(new FileInputStream(file_name));
         buffer = new byte[BUFFER_SIZE];
         bufferPointer = bytesRead = 0;

@@ -1,12 +1,12 @@
 package problems.onstring.gfg;
 
-import testingsystem.misccode.Reader;
+import testingsystem.misccode.Reader2;
 
 import java.io.IOException;
 
 public class PossibleNumberStringsStartAndEndWithOne {
     public static void main(String[] args) throws IOException {
-        Reader in = new Reader("src\\main\\java\\testingsystem\\misccode\\input.txt");
+        Reader2 in = new Reader2("src\\main\\java\\testingsystem\\misccode\\input.txt");
         StringBuilder result = new StringBuilder();
         int t = in.nextInt();
         while (t-- > 0) {

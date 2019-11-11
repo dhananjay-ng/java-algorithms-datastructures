@@ -1,6 +1,6 @@
 package problems.onmath.gfg;
 
-import testingsystem.misccode.Reader;
+import testingsystem.misccode.Reader2;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ public class Factorial {
     }
     public static void main (String[] args) throws IOException
     {
-        Reader in = new Reader();
+        Reader2 in = new Reader2();
         StringBuilder result = new StringBuilder();
         int t = in.nextInt();
         while (t-- > 0) {

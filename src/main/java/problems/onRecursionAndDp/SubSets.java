@@ -52,12 +52,12 @@ public class SubSets {
         List<List<Integer>> subs = new ArrayList<>();
 
         List<Integer> res = new ArrayList<>();
-        helper(0, 0, nums, res, subs);
+        helper(0, nums, res, subs);
 
         return subs;
     }
 
-    public static void helper(int i, int j, int[] nums, List<Integer> res, List<List<Integer>> subs) {
+    public static void helper(int i, int[] nums, List<Integer> res, List<List<Integer>> subs) {
 
         if (i == nums.length) {
             List<Integer> newa = new ArrayList<>();
@@ -71,8 +71,8 @@ public class SubSets {
 
         res.add(nums[i]);
 
-        helper(i + 1, j + 1, nums, res, subs);
-        helper(i + 1, j, nums, res, subs);
+        helper(i + 1, nums, res, subs);
+        helper(i + 1, nums, res, subs);
 
     }
 

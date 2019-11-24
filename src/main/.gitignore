@@ -94,3 +94,12 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+java/designpatterns/combined/
+java/designpatterns/creational/singleton/factory/
+java/designpatterns/creational/strategy/
+java/javarecipies/lamdastreams/
+src/
+target/classes/
+target/generated-sources/
+target/maven-archiver/
+target/maven-status/

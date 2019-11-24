@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="cp : UNLOCK, max permutation from given one">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/NQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/NqueenCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/SubSetSum.java" afterDir="false" />
+    <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="more backtracking">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/IBSubset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodingBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/input.txt" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +25,11 @@
     <session id="-1493825785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="142" />
+          <entry key="project.closed" value="145" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="1" />
@@ -55,6 +51,7 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="10" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.46" value="1" />
@@ -64,36 +61,37 @@
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="9" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="147" />
+          <entry key="project.opened" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
           <entry key="in" value="3" />
-          <entry key="java" value="62203" />
+          <entry key="java" value="63327" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="6401" />
+          <entry key="txt" value="6451" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="62202" />
+          <entry key="JAVA" value="63326" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="6446" />
+          <entry key="PLAIN_TEXT" value="6496" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="27" />
+          <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="538" />
+          <entry key="JAVA" value="542" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="18" />
@@ -106,9 +104,10 @@
           <entry key="MF" value="1" />
           <entry key="class" value="27" />
           <entry key="gif" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="iml" value="4" />
           <entry key="in" value="1" />
-          <entry key="java" value="541" />
+          <entry key="java" value="545" />
           <entry key="md" value="4" />
           <entry key="out" value="1" />
           <entry key="output" value="1" />
@@ -128,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PhoneKeypad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="102">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/Permute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="476">
               <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -152,7 +151,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/NQueen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="306">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,14 +169,69 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/SubSetSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/IBSubset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SubSets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/Combinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -227,6 +281,7 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Dhananjay Nagargoje &lt;dhanu10896@gmail.com&gt;" />
+        <option value="d" />
         <option value="Dhananjay Nagargoje &lt;dhananjay.nagargoje@sap.com&gt;" />
       </list>
     </option>
@@ -235,8 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursion/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/problems/onrecursion/StringPermutations.java" />
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/accessspecifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/javarecipies/Accessspecifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onarray/RemoveElement.java" />
@@ -286,6 +339,8 @@
         <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/NQueen.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/NqueenCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/SubSetSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/IBSubset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/Combinations.java" />
       </list>
     </option>
   </component>
@@ -365,8 +420,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,6 +457,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,7 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NqueenCount">
+  <component name="RunManager" selected="Application.Combinations">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -471,8 +526,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctSubsequences2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.DistinctSubsequences2" />
+    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.backtracking.Combinations" />
+      <module name="main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IBSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.backtracking.IBSubset" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -489,14 +552,6 @@
     </configuration>
     <configuration name="NqueenCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.backtracking.NqueenCount" />
-      <module name="main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.onRecursionAndDp.Permute" />
       <module name="main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -591,18 +646,18 @@
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Remote.maven" />
       <item itemvalue="Application.SubSets" />
-      <item itemvalue="Application.DistinctSubsequences2" />
-      <item itemvalue="Application.Permute" />
       <item itemvalue="Application.NQueen" />
       <item itemvalue="Application.NqueenCount" />
+      <item itemvalue="Application.IBSubset" />
+      <item itemvalue="Application.Combinations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Combinations" />
+        <item itemvalue="Application.IBSubset" />
+        <item itemvalue="Application.SubSets" />
         <item itemvalue="Application.NqueenCount" />
         <item itemvalue="Application.NQueen" />
-        <item itemvalue="Application.Permute" />
-        <item itemvalue="Application.DistinctSubsequences2" />
-        <item itemvalue="Application.SubSets" />
       </list>
     </recent_temporary>
   </component>
@@ -778,20 +833,10 @@
       <workItem from="1574048935824" duration="12000" />
       <workItem from="1574136943338" duration="2394000" />
       <workItem from="1574243849259" duration="2605000" />
-    </task>
-    <task id="LOCAL-00129" summary="#sorting interval merge problem">
-      <created>1561574708378</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1561574708378</updated>
-    </task>
-    <task id="LOCAL-00130" summary="removed not cool animations">
-      <created>1561695126469</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1561695126470</updated>
+      <workItem from="1574344876340" duration="4223000" />
+      <workItem from="1574653309542" duration="80000" />
+      <workItem from="1574659455884" duration="3681000" />
+      <workItem from="1574679738292" duration="598000" />
     </task>
     <task id="LOCAL-00131" summary="#sorting merge sort practive on HC">
       <created>1561707988612</created>
@@ -1122,7 +1167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573817355052</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="more backtracking">
+      <created>1574344932859</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1574344932862</updated>
+    </task>
+    <task id="LOCAL-00179" summary="added .git ignore">
+      <created>1574680316633</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1574680316634</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1140,7 +1199,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="693344000" />
+    <option name="totallyTimeSpent" value="701926000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1159,17 +1218,17 @@
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" sideWeight="0.5184" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.20469798" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.21543624" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6463087" weight="0.23463687" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5375839" weight="0.41759777" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.26815644" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64295304" weight="0.2444134" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5362416" weight="0.41759777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4442953" weight="0.23882681" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" weight="0.2849162" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4624161" side_tool="true" visible="true" weight="0.41759777" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.44295302" visible="true" weight="0.23882681" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4919463" weight="0.2849162" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.557047" side_tool="true" visible="true" weight="0.23882681" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4785235" weight="0.3282123" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.552349" side_tool="true" weight="0.3198324" />
@@ -1256,8 +1315,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode circle check" />
-    <MESSAGE value="leetcode numUniqueEmails" />
     <MESSAGE value="leetcode SwapPairs" />
     <MESSAGE value="leetcode paris swap the best" />
     <MESSAGE value="leetcode pascal triangle recursion dp" />
@@ -1281,7 +1338,9 @@
     <MESSAGE value="#leecode all subsets" />
     <MESSAGE value="#leecode phone keypad word combinationsd" />
     <MESSAGE value="#leecode Permute" />
-    <option name="LAST_COMMIT_MESSAGE" value="#leecode Permute" />
+    <MESSAGE value="more backtracking" />
+    <MESSAGE value="added .git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .git ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1706,6 +1765,12 @@
           <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/Combinations.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/util/BitUtil.java</url>
           <line>172</line>
@@ -1734,6 +1799,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="iDequeue.first" />
+        <watch expression="res" />
       </configuration>
     </watches-manager>
   </component>
@@ -1792,30 +1858,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/test/test.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onstring/JudgeCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="170" selection-start-line="31" selection-start-column="170" selection-end-line="31" selection-end-column="170" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/BirthdayParadox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -2091,16 +2133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SubSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/DistinctSubsequences2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -2110,7 +2142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/PhoneKeypad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="102">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2120,7 +2152,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/Permute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="476">
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2130,7 +2162,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/NQueen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2147,11 +2179,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/SubSetSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/IBSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SubSets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -7,8 +7,8 @@ public class PhoneKeypad {
     private String[] MAPPINGS = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
 
-    public List<String> letterCombinations(String digits) {
-        List<String> res = new ArrayList<>();
+    public ArrayList<String> letterCombinations(String digits) {
+        ArrayList<String> res = new ArrayList<>();
         if (digits == null || digits.length() == 0) return res;
         StringBuilder builder = new StringBuilder();
         find(res, 0, builder, digits);

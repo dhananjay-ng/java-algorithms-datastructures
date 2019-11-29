@@ -18,6 +18,13 @@ public class DepthFirstPaths implements Paths {
         dfs(G, s);
     }
 
+    public DepthFirstPaths(Graph G) {
+        this.s = s;
+        marked = new boolean[G.V()];
+        edgeTo = new int[G.V()];
+        Arrays.fill(edgeTo, -1);
+    }
+
     public void dfs(Graph g, int v) {
         marked[v] = true;
         for (int i : g.adj(v)) {

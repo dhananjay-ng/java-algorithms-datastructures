@@ -48,22 +48,43 @@ public class TestUndirectedGraph {
         graph2.addEdge(11, 12);
 
 
+        graph = new Digraph(5);
+
+        graph.addEdge(0, 1);
+        graph.addEdge(1, 2);
+        graph.addEdge(2, 3);
+        graph.addEdge(2, 4);
+
+        // graph.adj(1).forEach(integer -> System.out.println(integer));
+        System.out.println(graph.toString());
+
+        depthFirstPaths = new DepthFirstPaths(graph, 0);
+        System.out.println(depthFirstPaths.hasPathTo(4));
+
+        System.out.println();
+        System.out.println("DFS");
+        for (int path : depthFirstPaths.pathTo(4)) {
+            System.out.print(path + "->");
+        }
+
+        breadthFirstPaths = new BreadthFirstPaths(graph, 0);
+        System.out.println();
+        System.out.println("BFS");
+        for (int path : breadthFirstPaths.pathTo(4)) {
+            System.out.print(path + "->");
+        }
 
 
-
-
-        ConnectedComponent  connectedComponent = new ConnectedComponent(graph2);
+        ConnectedComponent connectedComponent = new ConnectedComponent(graph2);
 
         System.out.println();
 
-        System.out.println("Number of Connected Components : "+ connectedComponent.count());
-        System.out.println("Connected 0 & 6 : "+ connectedComponent.connected(0, 6));
-        System.out.println("Connected 0 & 8 : "+ connectedComponent.connected(0, 8));
-        System.out.println("Component of 4 : "+ connectedComponent.id(4));
-        System.out.println("Component of 7 : "+ connectedComponent.id(7));
-        System.out.println("Component of 12 : "+ connectedComponent.id(12));
-
-
+        System.out.println("Number of Connected Components : " + connectedComponent.count());
+        System.out.println("Connected 0 & 6 : " + connectedComponent.connected(0, 6));
+        System.out.println("Connected 0 & 8 : " + connectedComponent.connected(0, 8));
+        System.out.println("Component of 4 : " + connectedComponent.id(4));
+        System.out.println("Component of 7 : " + connectedComponent.id(7));
+        System.out.println("Component of 12 : " + connectedComponent.id(12));
 
 
     }

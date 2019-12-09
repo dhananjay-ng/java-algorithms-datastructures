@@ -1,4 +1,4 @@
-package problems.onRecursionAndDp;
+package problems.onRecursionAndDp.dp;
 
 public class MaximumSubarray {
     /**

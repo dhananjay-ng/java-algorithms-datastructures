@@ -1,4 +1,4 @@
-package problems.onRecursionAndDp;
+package problems.onRecursionAndDp.dp;
 import java.util.*;
 import java.lang.*;
 import java.io.*;

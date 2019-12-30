@@ -1,4 +1,4 @@
-package problems.ontwopointerstrategy;
+package problems.patterns.ontwopointerstrategy;
 
 import java.util.Arrays;
 

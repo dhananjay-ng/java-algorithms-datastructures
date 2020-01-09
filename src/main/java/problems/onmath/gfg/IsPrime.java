@@ -6,7 +6,13 @@ import java.io.IOException;
 
 public class IsPrime {
     //To DO: fermats method, miller rabin method, solovay straseen method
-
+    public int isPrime(int A) {
+        if(A == 1) return 0;
+        for(int i=2;i<=Math.sqrt(A);i++){
+            if(A%i == 0) return 0;
+        }
+        return 1;
+    }
     //easy one
     public static void main (String[] args) throws IOException {
         Reader2 in = new Reader2("src\\main\\java\\testingsystem\\misccode\\input.txt");

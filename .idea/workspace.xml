@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="more backtracking">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Allfactors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Sieve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java" afterDir="false" />
     </list>
     <ignored path="COPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,27 +74,27 @@
         <counts>
           <entry key="dummy" value="64" />
           <entry key="in" value="3" />
-          <entry key="java" value="76824" />
+          <entry key="java" value="76842" />
           <entry key="md" value="86" />
           <entry key="output" value="2" />
-          <entry key="txt" value="6625" />
+          <entry key="txt" value="6626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="76823" />
+          <entry key="JAVA" value="76841" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="6695" />
+          <entry key="PLAIN_TEXT" value="6696" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="27" />
-          <entry key="Git file" value="1" />
+          <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="620" />
+          <entry key="JAVA" value="623" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="20" />
@@ -108,10 +107,10 @@
           <entry key="MF" value="1" />
           <entry key="class" value="27" />
           <entry key="gif" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="iml" value="4" />
           <entry key="in" value="1" />
-          <entry key="java" value="623" />
+          <entry key="java" value="626" />
           <entry key="md" value="4" />
           <entry key="out" value="1" />
           <entry key="output" value="1" />
@@ -128,30 +127,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/MyReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/java8/StreamsAnatomy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/javarecipies/concurrency/creatingthreads/OneSynchronizedUse.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -199,29 +174,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="901">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Map.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21199">
-              <caret line="1273" column="13" selection-start-line="1273" selection-start-column="13" selection-end-line="1273" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -291,9 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/UndirectedGraphProcessing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/BreadthFirstPaths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/ConnectedComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/ongraph/FIndJudge.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/Digraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/graph/TestUndirectedGraph.java" />
@@ -342,6 +332,9 @@
         <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/IsPrime.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/Sieve.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java" />
       </list>
     </option>
   </component>
@@ -351,7 +344,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -434,19 +427,6 @@
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javarecipies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javarecipies" type="462c0819:PsiDirectoryNode" />
-              <item name="creatingthreads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -454,7 +434,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="gfg" type="462c0819:PsiDirectoryNode" />
+              <item name="slidingwindows" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COPP" type="b2602c69:ProjectViewProjectNode" />
@@ -881,14 +861,7 @@
       <workItem from="1577859763921" duration="12087000" />
       <workItem from="1578297799920" duration="10392000" />
       <workItem from="1578411516053" duration="1212000" />
-      <workItem from="1578584457519" duration="2321000" />
-    </task>
-    <task id="LOCAL-00136" summary="#mergesort linkedlist">
-      <created>1561836409137</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1561836409137</updated>
+      <workItem from="1578584457519" duration="4085000" />
     </task>
     <task id="LOCAL-00137" summary="#sorting 012">
       <created>1562003771262</created>
@@ -1226,7 +1199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576085078427</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="more backtracking">
+      <created>1578588615845</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1578588615846</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1244,7 +1224,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="784575000" />
+    <option name="totallyTimeSpent" value="786339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1266,17 +1246,17 @@
       <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4816" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6395973" visible="true" weight="0.30865923" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6395973" weight="0.30865923" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53355706" weight="0.27234638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4442953" weight="0.3114525" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.44362417" visible="true" weight="0.3114525" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4919463" weight="0.2849162" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35838926" side_tool="true" weight="0.2444134" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4785235" weight="0.3282123" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.36040267" side_tool="true" visible="true" weight="0.30865923" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.55637586" side_tool="true" visible="true" weight="0.3114525" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="15" show_stripe_button="false" />
@@ -1378,14 +1358,14 @@
     <MESSAGE value="#leecode all subsets" />
     <MESSAGE value="#leecode phone keypad word combinationsd" />
     <MESSAGE value="#leecode Permute" />
-    <MESSAGE value="more backtracking" />
     <MESSAGE value="added .git ignore" />
     <MESSAGE value="undirected graph procesing and data structure" />
     <MESSAGE value="diagraph, toplogical sorting" />
     <MESSAGE value="1d dp, in steps to reduce to 1" />
     <MESSAGE value="dp package" />
     <MESSAGE value="2d dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="2d dp" />
+    <MESSAGE value="more backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="more backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1469,34 +1449,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/ArraySumPreviousElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/DPMinStepsToReduceToOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/FastPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/HENewLang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/dp/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1869,8 +1821,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/onmath/gfg/PrimeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="901">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/AverageOfSubarrayOfSizeK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxSumSubArrayOfSizeK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MinSizeSubArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
         </state>
       </provider>
     </entry>

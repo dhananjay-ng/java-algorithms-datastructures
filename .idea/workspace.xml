@@ -2,46 +2,530 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199c63b3-a3ec-495b-be76-f5ac98b4d3d7" name="Default" comment="more backtracking">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/airlinemgmt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/amazon.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/atm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/blackjack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/brokeragesystem.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/carrentel.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/chess.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/cricinfo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/facebook.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/hotelmgmt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/librarymgmt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/linkedin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/moviebookingticket.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/parkinglot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/restaurant.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oopadesign/stackoverflow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/DistinctPermu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onRecursionAndDp/SubsetsWithTargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onarray/MaxDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onmath/gfg/DistinctPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onsearching/RoatetedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/onsearching/SmallestBaseAllOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/AllMissingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/CyclicSortBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/cyclicsort/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/onlinkedlistreversal/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/slidingwindows/MaxInEachWIndow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/Sieve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/problems/onmath/gfg/Sieve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/ontwopointerstrategy/BinaryArraySorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/ontwopointerstrategy/DeleteMiddleOfList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/problems/ontwopointerstrategy/TripLetWithZeroSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/CodeShef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/testingsystem/misccode/CodeShef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/BinaryArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/ontwopointerstrategy/BinaryArraySorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/DeleteMiddleOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/ontwopointerstrategy/DeleteMiddleOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ontwopointerstrategy/TripLetWithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/patterns/ontwopointerstrategy/TripLetWithZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingsystem/misccode/CodeShef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/DuckAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/DuckTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/Turkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/TurkeyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/TurkeyTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/WildTurkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/challenge/Drone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/challenge/DroneAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/ducks/challenge/SuperDrone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/iterenum/EI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/iterenum/EnumerationIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/iterenum/EnumerationIteratorTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/iterenum/IteratorEnumeration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/adapter/iterenum/IteratorEnumerationTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/Collections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/Cafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator/PancakeHouseMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator_builtin/Cafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator_builtin/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator_builtin/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator_builtin/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/collections/iterator_builtin/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/adapter/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/AbstractDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/CountingDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/DuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/Flock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/QuackCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/composite/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/QuackCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/decorator/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/ducks/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/AbstractDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/CountingDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/DuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/QuackCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/factory/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/.QuackDecorator.java.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/AbstractDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/CountingDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/DuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/Flock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/QuackCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/QuackObservable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/Quackologist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/combining/observer/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/CeilingFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/CeilingFanHighCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/CeilingFanMediumCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/CeilingFanOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/Hottub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/HottubOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/HottubOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/LightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/LightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/LivingroomLightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/LivingroomLightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/MacroCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/NoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/RemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/RemoteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/Stereo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/StereoOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/StereoOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/StereoOnWithCDCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/TV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/TVOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/party/TVOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/CeilingFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/CeilingFanOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/CeilingFanOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/GarageDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/GarageDoorDownCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/GarageDoorUpCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/Hottub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/HottubOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/HottubOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/LightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/LightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/LivingroomLightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/LivingroomLightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/NoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/RemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/RemoteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/Stereo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/StereoOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/StereoOnWithCDCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remote/TV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/CeilingFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/GarageDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/Hottub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/RemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/RemoteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/Stereo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/remoteWL/TV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/GarageDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/GarageDoorOpenCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/LightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/LightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/RemoteControlTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremote/SimpleRemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremoteWL/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremoteWL/GarageDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremoteWL/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremoteWL/RemoteControlTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/simpleremoteWL/SimpleRemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/CeilingFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/CeilingFanHighCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/CeilingFanLowCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/CeilingFanMediumCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/CeilingFanOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/DimmerLightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/DimmerLightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/LightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/LightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/NoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/RemoteControlWithUndo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/command/undo/RemoteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menu/MenuComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menu/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menu/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menu/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/CompositeIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/MenuComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/NullIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/composite/menuiterator/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/CarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/DefaultCarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/IndianCarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/LuxuryCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/SedanCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/SmallCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/TestCarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/abstractfactory/USACarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/builder/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/builder/UserBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/CarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/LuxuryCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/SedanCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/SmallCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factory/TestCarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/CommercialPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/DomesticPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/GenerateBill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/GetPlanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/InstitutionalPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/Plan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/factorymethod/PlanTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/PrototypeCapable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/PrototypeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/Show.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/prototype/TestPrototypePattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/BillPughSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/EagerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/EnumSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/creational/singleton/StaticBlockSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/io/InputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/io/LowerCaseInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/Cheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/Olives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/PizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/ThickcrustPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/ThincrustPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/pizza/ToppingDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Beverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/CondimentDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/DarkRoast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Decaf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Espresso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/HouseBlend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Milk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Mocha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Soy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/StarbuzzCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzz/Whip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Beverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/CondimentDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/DarkRoast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Decaf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Espresso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/HouseBlend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Milk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Mocha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Soy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/StarbuzzCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/starbuzzWithSizes/Whip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/DuckAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/DuckTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/Turkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/TurkeyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/TurkeyTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/ducks/WildTurkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/Amplifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/CdPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/DvdPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/HomeTheaterFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/HomeTheaterTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/PopcornPopper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/Projector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/Screen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/TheaterLights.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/facade/hometheater/Tuner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/Calendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/CalendarTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/PacificCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/Zone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/ZoneCentral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/ZoneEastern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/ZoneFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/ZoneMountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/challenge/ZonePacific.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/BlackOlives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Cheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/CheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ChicagoPizzaIngredientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ChicagoPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Clams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Dough.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Eggplant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/FreshClams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/FrozenClams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Garlic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/MarinaraSauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/MozzarellaCheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Mushroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/NYPizzaIngredientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/NYPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Onion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ParmesanCheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Pepperoni.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/PepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/PizzaIngredientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/PizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/PizzaTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/PlumTomatoSauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/RedPepper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ReggianoCheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Sauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/SlicedPepperoni.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Spinach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ThickCrustDough.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/ThinCrustDough.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/VeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzaaf/Veggies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/ChicagoPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/ChicagoStyleCheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/ChicagoStyleClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/ChicagoStylePepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/ChicagoStyleVeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/DependentPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/NYPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/NYStyleCheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/NYStyleClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/NYStylePepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/NYStyleVeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/PizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzafm/PizzaTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/CheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/ClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/PepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/PizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/PizzaTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/SimplePizzaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/factory/pizzas/VeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/AlternatingDinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/ArrayIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/ArrayListIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/PancakeHouseMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermerger/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/AlternatingDinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/CafeMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergercafe/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/AlternatingDinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/dinermergeri/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/implicit/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/DinerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/DinerMenuIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/MenuTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/PancakeHouseMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterator/transition/Waitress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterenum/EI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterenum/EnumerationIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterenum/EnumerationIteratorTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterenum/IteratorEnumeration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/iterenum/IteratorEnumerationTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simple/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simple/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simple/SimpleObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simple/SimpleSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simple/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simpleobservable/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simpleobservable/SimpleObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/simpleobservable/SimpleSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/swing/SwingObserverExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/CurrentConditionsDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/DisplayElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/ForecastDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/HeatIndexDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/StatisticsDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/WeatherData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/WeatherStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weather/WeatherStationHeatIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/CurrentConditionsDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/DisplayElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/ForecastDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/HeatIndexDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/StatisticsDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/WeatherData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/WeatherStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/observer/weatherobservable/WeatherStationHeatIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/GumballMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/GumballMachineRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/GumballMachineTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/GumballMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/GumballMonitorTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/HasQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/NoQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/SoldOutState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/SoldState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumball/WinnerState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/GumballMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/GumballMachineTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/GumballMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/HasQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/NoQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/SoldOutState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/SoldState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/gumballmonitor/WinnerState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/javaproxy/MatchMakingTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/javaproxy/NonOwnerInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/javaproxy/OwnerInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/javaproxy/PersonBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/javaproxy/PersonBeanImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/virtualproxy/ImageComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/virtualproxy/ImageProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/proxy/virtualproxy/ImageProxyTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/chocolate/ChocolateBoiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/chocolate/ChocolateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/classic/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/classic/SingletonClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/dcl/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/dcl/SingletonClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/stat/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/stat/SingletonClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/subclass/CoolerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/subclass/HotterSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/subclass/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/subclass/SingletonTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/threadsafe/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/threadsafe/SingletonClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumball/GumballMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumball/GumballMachineTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/GumballMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/GumballMachineTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/HasQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/NoQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/SoldOutState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/SoldState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstate/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/GumballMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/GumballMachineTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/HasQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/NoQuarterState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/SoldOutState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/SoldState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/gumballstatewinner/WinnerState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/FakeQuack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/FlyBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/FlyNoWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/FlyRocketPowered.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/FlyWithWings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/MiniDuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/MiniDuckSimulator1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/ModelDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/MuteQuack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/Quack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/QuackBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/RedHeadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/Squeak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/BasicCameraApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/CameraPlusApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/PhoneCameraApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/PhotoWithPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/ShareStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/Social.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/challenge/Txt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/applet/AppletSource.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/applet/MyApplet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/BeverageTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/CaffeineBeverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/CaffeineBeverageWithHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/CoffeeWithHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/Tea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/barista/TeaWithHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/frame/MyFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/simplebarista/Barista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/simplebarista/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/simplebarista/Tea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/sort/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/templatemethod/sort/DuckSortTestDrive.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,12 +591,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
   </component>
   <component name="ProjectId" id="1YKlSgMHuSB6fQwCDs6q8xbPfMA" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -583,14 +1061,8 @@
       <workItem from="1581865455768" duration="28000" />
       <workItem from="1582442112537" duration="3214000" />
       <workItem from="1582699173289" duration="2583000" />
-      <workItem from="1582809523168" duration="356000" />
-    </task>
-    <task id="LOCAL-00137" summary="#sorting 012">
-      <created>1562003771262</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1562003771263</updated>
+      <workItem from="1582809523168" duration="5952000" />
+      <workItem from="1582907411566" duration="696000" />
     </task>
     <task id="LOCAL-00138" summary="#bst hackerearth">
       <created>1562054667126</created>
@@ -928,7 +1400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578588615846</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="more backtracking">
+      <created>1582868407303</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1582868407304</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1007,6 +1486,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="more backtracking" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="419" y="15" key="CommitChangelistDialog2" timestamp="1582868401295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="419" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582868401295" />
     <state width="402" height="466" key="DebuggerActiveHint" timestamp="1582699794736">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -1027,6 +1510,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582703522812" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1582868409163">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582868409163" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

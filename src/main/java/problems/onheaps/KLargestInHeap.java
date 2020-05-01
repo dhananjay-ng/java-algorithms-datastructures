@@ -28,11 +28,8 @@ public class KLargestInHeap {
 
     public static List<Integer> kLargestInBinaryHeap(List<Integer> A, int k) {
         List<Integer> res = new ArrayList<>();
-        PriorityQueue<HeapEntry> levelPq = new PriorityQueue<>(new Comparator<HeapEntry>() {
-            @Override
-            public int compare(HeapEntry o1, HeapEntry o2) {
-                return o2.val - o1.val; //reverse comparater
-            }
+        PriorityQueue<HeapEntry> levelPq = new PriorityQueue<>((o1, o2) -> {
+            return o2.val - o1.val; //reverse comparater
         });
         if (A.size() == 0) return res;
         levelPq.add(new HeapEntry(A.get(0), 0));

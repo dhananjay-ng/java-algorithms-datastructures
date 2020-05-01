@@ -53,7 +53,7 @@ public class Admin extends Person {
   public boolean addMovie(Movie movie);
   public boolean addShow(Show show);
   public boolean blockUser(Customer customer);
-}
+}   
 
 public class FrontDeskOfficer extends Person {
   public boolean createBooking(Booking booking);
@@ -116,31 +116,6 @@ public class Payment {
   private int transactionId;
   private PaymentStatus status;
 }
-
-
-
-public class City {
-  private String name;
-  private String state;
-  private String zipCode;
-}
-
-public class Cinema {
-  private String name;
-  private int totalCinemaHalls;
-  private Address location;
-
-  private List<CinemaHall> halls;
-}
-
-public class CinemaHall {
-  private String name;
-  private int totalSeats;
-
-  private List<CinemaHallSeat> seats;
-  private List<Show> shows;
-}
-
 
 
 
